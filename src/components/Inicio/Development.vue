@@ -10,16 +10,18 @@
 
                 <div class="col-lg-6">
                     <div class="development-text">
-                        <h3>Web & Mobile <span>Development</span></h3>
+                        <h3>Conoce  <span>Nuestros servicios</span></h3>
                         <div class="bar"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan.</p>
+                        <p>
+                            Contamos con uno de los catálogos más resolutivos del mercado de servicios auxiliares del diagnóstico médico, nuestros más de 1,200 estudios permiten que nuestros pacientes y socios empresariales encuentren la solución a su necesidad.
+                        </p>
                     </div>
 
                     <div class="development-content">
                         <div class="icon">
                             <i class="flaticon-blog"></i>
                         </div>
-                        <h3>UI/UX Design</h3>
+                        <h3>Análisis Clínicos</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
                     </div>
 

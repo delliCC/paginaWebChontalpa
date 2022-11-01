@@ -514,13 +514,14 @@ Navbar Area CSS
   margin-left: 14px;
   margin-right: 14px;
 }
-
+/***************** Delli *******************8*/
 .valzo-nav .navbar .navbar-nav .nav-item a:hover, .valzo-nav .navbar .navbar-nav .nav-item a:focus, .valzo-nav .navbar .navbar-nav .nav-item a.active {
-  color: #086AD8;
+  color: #009115;
   position: relative;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
+
 
 .valzo-nav .navbar .navbar-nav .nav-item a i {
   font-size: 16px;
@@ -538,9 +539,9 @@ Navbar Area CSS
 .valzo-nav .navbar .navbar-nav .nav-item:first-child a {
   margin-left: 0;
 }
-
+/******* Delli *********/
 .valzo-nav .navbar .navbar-nav .nav-item:hover a, .valzo-nav .navbar .navbar-nav .nav-item.active a {
-  color: #086AD8;
+  color: #009115;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -1638,9 +1639,9 @@ Creative Area CSS
   height: 6px;
   border-radius: 5px;
 }
-
+/* Delli */
 .creative-image {
-  background-image: url(../images/about/about.jpg);
+  background-image: url(https://laboratorios-chontalpa-file.s3.amazonaws.com/nuestras+instalaciones-03.png);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -8221,6 +8222,164 @@ Fooetr Area CSS
   font-size: 16px;
   font-weight: 500;
 }
+
+/****************************** Delli Cintillo ******************************/
+
+.redes-widget {
+  margin: 0px 0px 0px 15px;
+}
+
+.redes-widget .footer-heading {
+  margin-bottom: 20px;
+}
+
+.redes-widget .footer-heading h3 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.redes-widget .redes-social {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.redes-widget .redes-social li {
+  display: inline-block;
+  margin-right: 10px;
+  list-style-type: none;
+}
+
+.redes-widget .redes-social li:last-child {
+  margin-right: 0;
+}
+
+.redes-widget .redes-social i {
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  line-height: 35px;
+  background-color: #0071B6;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 30px;
+  font-size: 16px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.redes-widget .redes-social i:hover {
+  background-color: #FF6600;
+}
+
+.redes-widget .redes-quick-links {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.redes-widget .redes-quick-links li {
+  list-style-type: none;
+  margin-bottom: 12px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.redes-widget .redes-quick-links li:last-child {
+  margin-bottom: 0;
+}
+
+.redes-widget .redes-info-contact {
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 16px;
+}
+
+.redes-widget .redes-info-contact:last-child {
+  margin-bottom: 0;
+}
+
+.redes-widget .redes-info-contact i {
+  position: absolute;
+  left: 0;
+  font-size: 25px;
+}
+
+.redes-widget .redes-info-contact h3 {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.redes-widget .redes-info-contact span {
+  font-size: 15px;
+}
+
+.cintillo-area {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background: #00944C;
+}
+
+.cintillo-area .cintillo-area-content p {
+  font-size: 14px;
+  color:#ffffff;
+  margin: 0px;
+}
+
+.cintillo-area .cintillo-area-content p a {
+  display: inline-block;
+  font-weight: 600;
+}
+
+.cintillo-area .cintillo-area-content p a:hover {
+  color: #086AD8;
+}
+
+.cintillo-area .cintillo-area-content ul {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+  text-align: right;
+}
+
+.cintillo-area .cintillo-area-content ul li {
+  display: inline-block;
+  font-size: 14px;
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.cintillo-area .cintillo-area-content ul li a {
+  display: inline-block;
+  color: #ffffff;
+}
+
+.cintillo-area .cintillo-area-content ul li a:hover {
+  color: #086AD8;
+}
+
+.cintillo-area .cintillo-area-content ul li::before {
+  content: '';
+  position: absolute;
+  top: 5px;
+  right: -10px;
+  width: 1px;
+  height: 14px;
+  background-color: #0071B6;
+}
+
+.cintillo-area .cintillo-area-content ul li:last-child {
+  margin-right: 0;
+}
+
+.cintillo-area .cintillo-area-content ul li:last-child::before {
+  display: none;
+}
+
+.cintillo-area .cintillo-area-content ul li:first-child {
+  margin-left: 0;
+}
+
+/***************************************************************/
 
 .single-footer-widget {
   margin-bottom: 30px;

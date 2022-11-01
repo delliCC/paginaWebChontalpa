@@ -5,9 +5,11 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="creative-content">
-                            <h3>How to Generate <span>Creative</span> Ideas for your IT Business</h3>
+                            <h3>¿Quiénes <span>somos</span>?</h3>
                             <div class="bar"></div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt  labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus do  umsan lacus vel facilisis.Lorem Ipsum is simply dummy text of the industry. Lorem Ipsum has been the industry's.</p>
+                            <p>
+                                En Laboratorios Chontalpa proporcionamos servicios auxiliares del diagnóstico médico que garantiza los más altos estándares de calidad para contribuir al cuidado y mejor la salud en la sociedad. Más de 40 años de experiencia respaldan nuestro trabajo.
+                            </p>
                         </div>
 
                         <div class="progress-content">
@@ -42,33 +44,11 @@
                                 <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
-
-                        <div class="progress-content">
-                            <div class="progress-text">
-                                <span>SEO & Digital Marketing</span>
-                                <p>70%</p>
-                            </div>
-
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-
-                        <div class="progress-content">
-                            <div class="progress-text">
-                                <span>SEO & Digital Marketing</span>
-                                <p>90%</p>
-                            </div>
-
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
                     </div>
 
                     <div class="col-lg-6">
                         <div class="creative-image">
-                            <img src="../../assets/images/about/about.jpg" alt="image">
+                            <img src="https://laboratorios-chontalpa-file.s3.amazonaws.com/nuestras+instalaciones-03.png" alt="image">
 
                             <div class="creative-video">
                                 <div
@@ -98,7 +78,7 @@
                         <div class="popup-overlay-close-line"></div>
                     </div>
                     <div class="play-video">
-                        <iframe src="https://www.youtube.com/embed/bk7McNUjWgw"></iframe>
+                        <iframe src="https://youtu.be/aAE1SPCZNw0"></iframe>
                     </div>
                 </div>
             </div>

@@ -2,7 +2,7 @@
     <div class="features-section pt-100 pb-70">
         <div class="container">
             <div class="section-title">
-                <h2>Creative Features</h2>
+                <h2>Promociones</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt  labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
                 <div class="bar"></div>
             </div>

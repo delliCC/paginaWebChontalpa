@@ -1,25 +1,7 @@
 <template>
-    <div class="footer-section pt-100 pb-70">
+    <div class="footer-section pt-70 pb-60">
         <div class="container">
-            <div class="subscribe-area">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-6">
-                        <div class="subscribe-content">
-                            <h2>Join Our Newsletter</h2>
-                            <p>News letter dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-6">
-                        <form class="newsletter-form">
-                            <input type="email" class="input-newsletter" placeholder="Enter your email" name="EMAIL" required>
-                            <button type="submit">
-                                Subscribe Now
-                            </button>
-                        </form>
-                    </div>
-                </div>
-            </div>
+         
 
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6">
@@ -33,16 +15,6 @@
                             <li>
                                 <a href="#" target="_blank">
                                     <i class="flaticon-facebook"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" target="_blank">
-                                    <i class="flaticon-twitter"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" target="_blank">
-                                    <i class="flaticon-pinterest"></i>
                                 </a>
                             </li>
                             <li>

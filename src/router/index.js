@@ -1,7 +1,7 @@
 import { createWebHistory, createRouter } from "vue-router";
 
 // All Pages
-import HomePageOne from '../components/pages/HomePageOne'
+import InicioPageOne from '../components/pages/Inicio'
 import HomePageTwo from '../components/pages/HomePageTwo'
 import HomePageThree from '../components/pages/HomePageThree'
 import HomePageFour from '../components/pages/HomePageFour'
@@ -31,7 +31,7 @@ import PrivacyPolicyPage from '../components/pages/PrivacyPolicyPage'
 import ErrorPage from '../components/pages/ErrorPage'
 
 const routes = [
-    {path: '/', component: HomePageOne},
+    {path: '/', component: InicioPageOne},
     {path: '/home-two', component: HomePageTwo},
     {path: '/home-three', component: HomePageThree},
     {path: '/home-four', component: HomePageFour},

@@ -157,6 +157,39 @@
     top: 0;
     margin-top: 20px;
   }
+  /****************************** Cintillo *****************************8*/
+  .cintillo .footer-heading {
+    margin-bottom: 10px;
+  }
+  .cintillo .footer-quick-links li {
+    font-size: 13px;
+  }
+  .cintillo .footer-info-contact {
+    padding-left: 30px;
+  }
+  .cintillo .footer-info-contact h3 {
+    font-size: 16px;
+  }
+  .cintillo .footer-info-contact span {
+    font-size: 14px;
+  }
+  .cintillo .footer-info-contact i {
+    font-size: 20px;
+  }
+  .services-details-overview .services-details-desc .services-details-accordion .accordion .card-header .btn-info {
+    font-size: 15px;
+  }
+  .cintillo-area {
+    text-align: center;
+    background: #00944C;
+  }
+  .cintillo-area .cintillo-area-content p {
+    margin-bottom: 10px;
+  }
+  .cintillo-area .cintillo-area-content ul {
+    text-align: center;
+  }
+  /***************************************************************/
   .single-footer-widget .footer-heading {
     margin-bottom: 10px;
   }

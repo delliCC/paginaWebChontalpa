@@ -1,5 +1,6 @@
 <template>
     <div>
+        <Cintillo />
         <Navbar />
         <PageTitle />
         <ContactBox />
@@ -10,6 +11,7 @@
 </template>
 
 <script>
+    import Cintillo from '../Inicio/Cintillo'
     import Navbar from '../Layout/Navbar'
     import PageTitle from '../Contact/PageTitle'
     import ContactBox from '../Contact/ContactBox'
@@ -20,6 +22,7 @@
     export default {
         name: 'ContactPage',
         components: {
+            Cintillo,
             Navbar,
             PageTitle,
             ContactBox,

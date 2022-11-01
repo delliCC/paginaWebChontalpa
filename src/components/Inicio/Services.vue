@@ -2,8 +2,10 @@
     <div class="services-section bg-color pt-100 pb-70">
         <div class="container">
             <div class="section-title">
-                <h2>IT  Agency Services</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt  labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                <h2>Conoce nuestros estudios</h2>
+                <p>
+                    Contamos con uno de los catálogos más resolutivos del mercado de servicios auxiliares del diagnóstico médico, nuestros más de 1,200 estudios permiten que nuestros pacientes y socios empresariales encuentren la solución a su necesidad.
+                </p>
                 <div class="bar"></div>
             </div>
 
@@ -36,39 +38,6 @@
                             <i class="flaticon-promotion"></i>
                         </div>
                         <h3>Digital Marketing</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore facilisis.</p>
-                        <router-link to="/single-services" class="read-btn">Read More</router-link>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-services">
-                        <div class="icon">
-                            <i class="flaticon-cellphone"></i>
-                        </div>
-                        <h3>App Development</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore facilisis.</p>
-                        <router-link to="/single-services" class="read-btn">Read More</router-link>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-services">
-                        <div class="icon">
-                            <i class="flaticon-shopping-cart"></i>
-                        </div>
-                        <h3>E-commerce Development</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore facilisis.</p>
-                        <router-link to="/single-services" class="read-btn">Read More</router-link>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-services">
-                        <div class="icon">
-                            <i class="flaticon-optimize"></i>
-                        </div>
-                        <h3>IT Solutions</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore facilisis.</p>
                         <router-link to="/single-services" class="read-btn">Read More</router-link>
                     </div>

@@ -1,15 +1,13 @@
 <template>
     <div>
+        <Cintillo />
         <Navbar />
         <Banner />
         <Features />
         <Creative />
         <Services />
         <Development />
-        <Video />
         <Choose />
-        <Projects />
-        <Clients />
         <Blog />
         <Footer />
         <CopyRight />
@@ -17,33 +15,29 @@
 </template>
 
 <script>
+import Cintillo from '../Inicio/Cintillo'
 import Navbar from '../Layout/Navbar'
-import Banner from '../HomeOne/Banner'
+import Banner from '../Inicio/Banner'
 import Features from '../Common/Features'
 import Creative from '../Common/Creative'
-import Services from '../HomeOne/Services'
-import Development from '../HomeOne/Development'
-import Video from '../Common/Video'
-import Choose from '../HomeOne/Choose'
-import Projects from '../Common/Projects'
-import Clients from '../Common/Clients'
+import Services from '../Inicio/Services'
+import Development from '../Inicio/Development'
+import Choose from '../Inicio/Choose'
 import Blog from '../Common/Blog'
 import Footer from '../Layout/Footer'
 import CopyRight from '../Layout/CopyRight'
 
 export default {
-    name: 'HomePageOne',
+    name: 'Inicio',
     components: {
+        Cintillo,
         Navbar,
         Banner,
         Features,
         Creative,
         Services,
         Development,
-        Video,
         Choose,
-        Projects,
-        Clients,
         Blog,
         Footer,
         CopyRight,

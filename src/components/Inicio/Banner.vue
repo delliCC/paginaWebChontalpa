@@ -12,7 +12,7 @@
                     :key="slide.id"
                 >
                     <div :class="slide.class">
-                        <div class="d-table">
+                        <!-- <div class="d-table">
                             <div class="d-table-cell">
                                 <div class="container">
                                     <div class="main-banner-content">
@@ -32,7 +32,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </slide>
 

@@ -5,7 +5,7 @@
                 <div class="container">
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <router-link class="navbar-brand" to="/">
-                            <img src="../../assets/images/logo.png" alt="logo">
+                            <img src="https://laboratorios-chontalpa-file.s3.amazonaws.com/assets/laboratorios-chontalpa-logotipo1.png" alt="avatar">
                         </router-link>
 
                         <div 
@@ -22,65 +22,9 @@
                         <div class="collapse navbar-collapse" :class="{ show: active }" is-nav>
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                        Home 
-                                        <i class='bx bx-chevron-down'></i>
+                                    <a href="/" class="nav-link">
+                                        Inicio
                                     </a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item">
-                                            <router-link  to="/" class="nav-link">
-                                                Home One
-                                            </router-link>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <router-link  to="/home-two" class="nav-link">
-                                                Home Two
-                                            </router-link>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <router-link  to="/home-three" class="nav-link">
-                                                Home Three
-                                            </router-link>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <router-link  to="/home-four" class="nav-link">
-                                                Home Four
-                                            </router-link>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <router-link  to="/home-five" class="nav-link">
-                                                Home Five
-                                            </router-link>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <router-link  to="/home-six" class="nav-link">
-                                                Home Six
-                                            </router-link>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <router-link  to="/home-seven" class="nav-link">
-                                                Home Seven
-                                            </router-link>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <router-link  to="/home-eight" class="nav-link">
-                                                Home Eight
-                                            </router-link>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <router-link  to="/home-nine" class="nav-link">
-                                                Home Nine
-                                            </router-link>
-                                        </li>
-                                    </ul>
                                 </li>
 
                                 <li class="nav-item">
@@ -214,8 +158,9 @@
 
                                         <li class="nav-item">
                                             <router-link  to="/contact" class="nav-link">
-                                                Contact
+                                                Contacto
                                             </router-link>
+                                            
                                         </li>
                                     </ul>
                                 </li>
@@ -248,8 +193,9 @@
 
                                 <li class="nav-item">
                                     <router-link  to="/contact" class="nav-link">
-                                        Contact
+                                        Contactanos
                                     </router-link>
+                                    <span class="borde-active transition-center"></span>
                                 </li>
                             </ul>
                         </div>
