@@ -3,11 +3,11 @@
         <Cintillo />
         <Navbar />
         <Banner />
-        <Features />
-        <Creative />
-        <Services />
+        <DatosChontalpa />
+        <QuieneSomos />
+        <Servicios />
         <Development />
-        <Choose />
+        <!-- <Choose /> -->
         <Blog />
         <Footer />
         <CopyRight />
@@ -18,11 +18,11 @@
 import Cintillo from '../Inicio/Cintillo'
 import Navbar from '../Layout/Navbar'
 import Banner from '../Inicio/Banner'
-import Features from '../Common/Features'
-import Creative from '../Common/Creative'
-import Services from '../Inicio/Services'
+import DatosChontalpa from '../Common/DatosChontalpa'
+import QuieneSomos from '../Common/QuieneSomos'
+import Servicios from '../Inicio/Servicios'
 import Development from '../Inicio/Development'
-import Choose from '../Inicio/Choose'
+// import Choose from '../Inicio/Choose'
 import Blog from '../Common/Blog'
 import Footer from '../Layout/Footer'
 import CopyRight from '../Layout/CopyRight'
@@ -33,11 +33,11 @@ export default {
         Cintillo,
         Navbar,
         Banner,
-        Features,
-        Creative,
-        Services,
+        DatosChontalpa,
+        QuieneSomos,
+        Servicios,
         Development,
-        Choose,
+        // Choose,
         Blog,
         Footer,
         CopyRight,

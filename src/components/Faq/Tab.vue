@@ -55,7 +55,7 @@
 
                                     <div class="col-lg-6">
                                         <div class="tab-image">
-                                            <img src="../../assets/images/tab.png" alt="image">
+                                            <img src="https://www.laboratorioschontalpa.com.mx/wp-content/uploads/2022/03/proceso1.jpg" alt="image">
                                         </div>
                                     </div>
                                 </div>
@@ -80,29 +80,9 @@ export default {
                 {
                     id: 1,
                     icon: 'bx bx-flag',
-                    title: 'Real-Time Analytics',
+                    title: 'Toma de muestra',
                     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan facilisis.',
-                    inners: [
-                        {
-                            id: 1,
-                            icon: 'flaticon-tick',
-                            title: 'Super Responsive',
-                            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-                        },
-                        {
-                            id: 2,
-                            icon: 'flaticon-tick',
-                            title: 'High Security',
-                            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-                        },
-                        {
-                            id: 3,
-                            icon: 'flaticon-tick',
-                            title: 'Optimal Choice',
-                            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-                        },
-                    ],
-                    image: require('../../assets/images/tab.png')
+                    image: 'https://www.laboratorioschontalpa.com.mx/wp-content/uploads/2022/03/proceso1.jpg'
                 },
                 {
                     id: 2,

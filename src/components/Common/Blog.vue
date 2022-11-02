@@ -1,5 +1,5 @@
 <template>
-    <div class="blog-section pt-100 pb-70">
+    <div class="blog-section pt-50 pb-70">
         <div class="container">
             <div class="section-title">
                 <h2>Casos <span>Clinicos</span></h2>

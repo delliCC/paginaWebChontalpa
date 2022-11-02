@@ -80,7 +80,7 @@ export default {
                 {
                     id: 1,
                     icon: 'bx bx-flag',
-                    title: 'Real-Time Analytics',
+                    title: 'Toma de muestra',
                     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan facilisis.',
                     inners: [
                         {
@@ -102,7 +102,7 @@ export default {
                             desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
                         },
                     ],
-                    image: require('../../assets/images/tab.png')
+                    image: 'https://www.laboratorioschontalpa.com.mx/wp-content/uploads/2022/03/proceso1.jpg'
                 },
                 {
                     id: 2,

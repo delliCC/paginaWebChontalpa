@@ -10,45 +10,26 @@
                             <p>
                                 En Laboratorios Chontalpa proporcionamos servicios auxiliares del diagnóstico médico que garantiza los más altos estándares de calidad para contribuir al cuidado y mejor la salud en la sociedad. Más de 40 años de experiencia respaldan nuestro trabajo.
                             </p>
+                            <p>
+                                Contamos con 4 laboratorios equipados con la más alta tecnología a nivel mundial y más de 90 sucursales se encuentran distribuidas en las principales ciudades y municipios de los estados de Yucatán, Quintana Roo, Veracruz, Tabasco, Campeche y Chiapas.
+                            </p>
                         </div>
 
-                        <div class="progress-content">
-                            <div class="progress-text">
-                                <span>Development</span>
-                                <p>75%</p>
+                        <div class="quienes-somos-content">
+                            <div class="quienes-somos-text">
+                                <span>La prevención es la mejor medicina.</span>
                             </div>
-
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-
-                        <div class="progress-content">
-                            <div class="progress-text">
-                                <span>Branding Design</span>
-                                <p>45%</p>
-                            </div>
-
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 45%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-
-                        <div class="progress-content">
-                            <div class="progress-text">
-                                <span>SEO & Digital Marketing</span>
-                                <p>80%</p>
-                            </div>
-
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
+                            <!-- <div style="width: 40%; display: flex;">
+                                <div style="width: 33%; height: 5px; background: #00944C;"></div>
+                                <div style="width: 33%; height: 5px; background: #FF6600;"></div>
+                                <div style="width: 33%; height: 5px; background: #0071B6;"></div>
+                            </div> -->
                         </div>
                     </div>
 
                     <div class="col-lg-6">
                         <div class="creative-image">
-                            <img src="https://laboratorios-chontalpa-file.s3.amazonaws.com/nuestras+instalaciones-03.png" alt="image">
+                            <img src="https://youtu.be/aAE1SPCZNw0" alt="image">
 
                             <div class="creative-video">
                                 <div
@@ -88,7 +69,7 @@
 
 <script>
 export default {
-    name: 'Creative',
+    name: 'QuieneSomos',
     data (){
         return {
             isPopup: false,

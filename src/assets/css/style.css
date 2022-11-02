@@ -221,9 +221,9 @@ img {
   position: relative;
   line-height: 1;
 }
-
+/*********************** Delli *****************/
 .section-title span {
-  color: #086AD8;
+  color: #00944C;
 }
 
 .section-title p {
@@ -234,13 +234,13 @@ img {
 .section-title .bar {
   height: 4px;
   width: 85px;
-  background: #086AD8;
+  background: #0071B6;
   margin: 20px auto 0;
   position: relative;
   border-radius: 5px;
   overflow: hidden;
 }
-
+/* ******************************************* */
 .section-title .bar::before {
   content: '';
   position: absolute;
@@ -1315,9 +1315,9 @@ Banner Area CSS
 .home-sliders .home-item {
   position: relative;
   width: 100%;
-  height: 800px;
+  height: 600px;
   text-align: left;
-  background-position: center;
+  /* background-position: center; */
   background-size: cover;
   background-repeat: no-repeat;
   z-index: 1;
@@ -1331,20 +1331,20 @@ Banner Area CSS
   z-index: -1;
   width: 100%;
   height: 100%;
-  background: #086AD8;
+  /* background: #086AD8; */
   opacity: 0.6;
 }
 
 .home-sliders .home-item.item-bg1 {
-  background-image: url(../images/slider-bg.jpg);
+  background-image: url(https://www.laboratorioschontalpa.com.mx/wp-content/uploads/2022/08/280x500-1-1.png);
 }
 
 .home-sliders .home-item.item-bg2 {
-  background-image: url(../images/slider-bg-2.jpg);
+  background-image: url(https://www.laboratorioschontalpa.com.mx/wp-content/uploads/2022/10/1280-delli-1.png);
 }
 
 .home-sliders .home-item.item-bg3 {
-  background-image: url(../images/slider-bg-3.jpg);
+  background-image: url(https://www.laboratorioschontalpa.com.mx/wp-content/uploads/2022/07/resultado_linea.png);
 }
 
 .home-sliders .home-item .main-banner-content {
@@ -1478,13 +1478,25 @@ Features Area CSS
   margin-bottom: 20px;
 }
 
+.sucursalImg{
+  display: inline-block;
+  height: 70px;
+  width: 70px;
+  line-height: 65px;
+  background-color: #FF6600;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 35px;
+}
+
 .features-content .icon i {
   display: inline-block;
   height: 70px;
   width: 70px;
   line-height: 70px;
-  background-color: #d1f9fc;
-  color: #10dce8;
+  background-color: #FF6600;
+  color: #ffffff;
   text-align: center;
   border-radius: 50px;
   font-size: 35px;
@@ -1513,14 +1525,15 @@ Creative Area CSS
   position: absolute;
 }
 
+/* Delli */
 .creative-content span {
-  color: #086AD8;
+  color: #009115;
 }
 
 .creative-content .bar {
   height: 4px;
   width: 85px;
-  background: #086AD8;
+  background: #0071B6;
   position: relative;
   border-radius: 5px;
   overflow: hidden;
@@ -1639,14 +1652,43 @@ Creative Area CSS
   height: 6px;
   border-radius: 5px;
 }
-/* Delli */
+/**************************************** Delli ******************************/
+
+.quienes-somos-content {
+  margin-top: 30px;
+}
+
+.quienes-somos-content .quienes-somos-text {
+  position: relative;
+}
+
+.quienes-somos-content .quienes-somos-text span {
+  font-size: 18px;
+  font-weight: 600;
+  display: inline-block;
+  color: #212121;
+  margin-bottom: 10px;
+}
+
+.quienes-somos-content .quienes-somos-text p {
+  font-size: 16px;
+  position: absolute;
+  color: #212121;
+  top: 5px;
+  right: 0;
+  width: 40px;
+  height: 20px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 20px;
+}
 .creative-image {
   background-image: url(https://laboratorios-chontalpa-file.s3.amazonaws.com/nuestras+instalaciones-03.png);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 650px;
+  height: 350px;
   position: relative;
 }
 
@@ -1659,7 +1701,7 @@ Creative Area CSS
   position: absolute;
   left: 0px;
   right: 0;
-  bottom: 210px;
+  bottom: 150px;
   margin: auto;
 }
 
@@ -1670,10 +1712,11 @@ Creative Area CSS
   line-height: 60px;
   background-color: #ffffff;
   border-radius: 50%;
-  color: #086AD8;
+  color: #FF6600;
   position: relative;
   z-index: 1;
 }
+/* ********************************************************************* */
 
 .creative-video .video-btn i {
   font-size: 35px;
@@ -1779,11 +1822,12 @@ Services Area CSS
   bottom: 0;
 }
 
+/******************* Delli **************************/
 .single-services {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   background-color: #ffffff;
-  padding: 30px;
+  padding: 10px;
   border-radius: 10px;
   position: relative;
   z-index: 1;
@@ -1868,7 +1912,7 @@ Services Area CSS
 
 .single-services h3 {
   font-size: 24px;
-  margin: 25px 0 10px 0;
+  margin: 20px 0 10px 0;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -1885,7 +1929,7 @@ Services Area CSS
   font-weight: 600;
   font-size: 15px;
 }
-
+/****************************** Delli ****************************/
 .single-services::before {
   content: '';
   position: absolute;
@@ -1894,13 +1938,13 @@ Services Area CSS
   z-index: -1;
   width: 100%;
   height: 0%;
-  background: #00b0ee;
+  background: #0071B6;
   border-radius: 0;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border-radius: 10px;
 }
-
+/* **************************************************************/
 .single-services:hover {
   -webkit-box-shadow: 0 5px 40px 0 rgba(0, 0, 0, 0.11);
           box-shadow: 0 5px 40px 0 rgba(0, 0, 0, 0.11);
@@ -2384,13 +2428,13 @@ Development Area CSS
 }
 
 .development-text span {
-  color: #086AD8;
+  color: #009115;
 }
 
 .development-text .bar {
   height: 4px;
   width: 85px;
-  background: #086AD8;
+  background: #0071B6;
   position: relative;
   border-radius: 5px;
   overflow: hidden;
@@ -2431,23 +2475,50 @@ Development Area CSS
   height: 70px;
   width: 70px;
   line-height: 70px;
-  background-color: #e5c2fe;
+  background-color: #0071b6;
   color: #ffffff;
   text-align: center;
   border-radius: 50px;
   font-size: 35px;
 }
+/********************************** Delli ***************************/
+.iconProcesoChontalpa {
+  position: relative;
+  padding-left: 85px;
+  margin-top: 30px;
+}
 
+.iconProcesoChontalpa .icon {
+  position: absolute;
+  left: 0;
+}
+.iconProcesoChontalpa .icon {
+  position: absolute;
+  left: 0;
+}
+
+.iconProcesoChontalpa .icon i {
+  display: inline-block;
+  height: 70px;
+  width: 70px;
+  line-height: 70px;
+  background-color: #0071b6;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 35px;
+}
+/* ****************************** */
 .development-content .icon.bg-05dbcf i {
-  background-color: #05dbcf;
+  background-color: #00944C;
 }
 
 .development-content .icon.bg-fec66f i {
-  background-color: #fec66f;
+  background-color: #f06f22;
 }
 
 .development-content .icon.bg-66a6ff i {
-  background-color: #66a6ff;
+  background-color: #ffa900;
 }
 
 .development-content span {
@@ -8383,6 +8454,7 @@ Fooetr Area CSS
 
 .single-footer-widget {
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .single-footer-widget .footer-heading {
@@ -8414,7 +8486,7 @@ Fooetr Area CSS
   height: 40px;
   width: 40px;
   line-height: 40px;
-  background-color: #086AD8;
+  background-color: #0071B6;
   color: #ffffff;
   text-align: center;
   border-radius: 30px;
@@ -8445,7 +8517,7 @@ Fooetr Area CSS
 
 .single-footer-widget .footer-info-contact {
   position: relative;
-  padding-left: 40px;
+  padding-left: 0px;
   margin-bottom: 16px;
 }
 
@@ -8455,8 +8527,9 @@ Fooetr Area CSS
 
 .single-footer-widget .footer-info-contact i {
   position: absolute;
-  left: 0;
+  left: 100px;
   font-size: 25px;
+  color: #FF6600;
 }
 
 .single-footer-widget .footer-info-contact h3 {
@@ -8472,17 +8545,20 @@ Fooetr Area CSS
 Copy Right Area CSS
 =================================================*/
 .copyright-area {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: #00944C;
 }
 
 .copyright-area .copyright-area-content p {
   font-size: 14px;
+  color:#ffffff;
 }
 
 .copyright-area .copyright-area-content p a {
   display: inline-block;
   font-weight: 600;
+  color: #ffffff;
 }
 
 .copyright-area .copyright-area-content p a:hover {
@@ -8506,6 +8582,7 @@ Copy Right Area CSS
 
 .copyright-area .copyright-area-content ul li a {
   display: inline-block;
+  color:#ffffff;
 }
 
 .copyright-area .copyright-area-content ul li a:hover {
