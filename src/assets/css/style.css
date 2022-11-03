@@ -2482,32 +2482,62 @@ Development Area CSS
   font-size: 35px;
 }
 /********************************** Delli ***************************/
-.iconProcesoChontalpa {
-  position: relative;
-  padding-left: 85px;
-  margin-top: 30px;
-}
-
-.iconProcesoChontalpa .icon {
+.iconTomaMuestra {
   position: absolute;
   left: 0;
-}
-.iconProcesoChontalpa .icon {
-  position: absolute;
-  left: 0;
-}
-
-.iconProcesoChontalpa .icon i {
   display: inline-block;
   height: 70px;
   width: 70px;
-  line-height: 70px;
+  line-height: 60px;
   background-color: #0071b6;
   color: #ffffff;
   text-align: center;
   border-radius: 50px;
   font-size: 35px;
 }
+
+.iconTraslado {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 70px;
+  width: 70px;
+  line-height: 72px;
+  background-color: #00944C;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 35px;
+}
+
+.iconAnalisisMuestra{
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 70px;
+  width: 70px;
+  line-height: 63px;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 35px;
+  background-color: #f06f22;
+}
+
+.iconEntregaResult{
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 70px;
+  width: 70px;
+  line-height: 75px;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 35px;
+  background-color: #ffa900;
+}
+
 /* ****************************** */
 .development-content .icon.bg-05dbcf i {
   background-color: #00944C;

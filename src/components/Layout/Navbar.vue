@@ -28,8 +28,8 @@
                                 </li>
 
                                 <li class="nav-item">
-                                    <router-link  to="/about" class="nav-link">
-                                        About
+                                    <router-link  to="/localiza-tu-sucursal" class="nav-link">
+                                        Localiza tu sucursal
                                     </router-link>
                                 </li>
 
@@ -222,8 +222,8 @@
             <div class="sidebar-modal-inner">
                 <div class="sidebar-about">
                     <div class="title">
-                        <h2>About Us</h2>
-                        <p>We believe brand interaction is key to communication. Real innovations and positive customer experience are the heart of successful communication. No fake products and services. The customer is king, their lives and needs are the inspiration.</p>
+                        <h2>¿Quieres que te realicemos una cotización?</h2>
+                        <p>Déjanos tus datos y nos pondremos en contacto.</p>
                     </div>
                     <div 
                         class="close-btn"
@@ -234,44 +234,44 @@
                 </div>
 
                 <div class="sidebar-contact-feed">
-                    <h2>Contact</h2>
+                    <h2>Contactanos</h2>
                     <div class="contact-form">
                         <form>
                             <div class="row">
                                 <div class="col-lg-12 col-md-12">
                                     <div class="form-group">
-                                        <input type="text" name="name" id="name" class="form-control" required placeholder="Your Name">
+                                        <input type="text" name="name" id="name" class="form-control" required placeholder="Nombre">
                                     </div>
                                 </div>
 
                                 <div class="col-lg-12 col-md-12">
                                     <div class="form-group">
-                                        <input type="email" name="email" id="email" class="form-control" required placeholder="Your Email">
+                                        <input type="email" name="email" id="email" class="form-control" required placeholder="Correo electrónico">
                                     </div>
                                 </div>
 
                                 <div class="col-lg-12 col-md-12">
                                     <div class="form-group">
-                                        <input type="text" name="phone_number" id="phone_number" required class="form-control" placeholder="Your Phone">
+                                        <input type="text" name="phone_number" id="phone_number" required class="form-control" placeholder="Teléfono">
                                     </div>
                                 </div>
 
                                 <div class="col-lg-12 col-md-12">
                                     <div class="form-group">
-                                        <input type="text" name="msg_subject" id="msg_subject" class="form-control" required placeholder="Your Subject">
+                                        <input type="file" name="msg_subject" id="msg_subject" class="form-control" required placeholder="Subir un archivo/foto">
                                     </div>
                                 </div>
 
                                 <div class="col-lg-12 col-md-12">
                                     <div class="form-group">
-                                        <textarea name="message" class="form-control" id="message" cols="30" rows="6" required placeholder="Your Message"></textarea>
+                                        <textarea name="message" class="form-control" id="message" cols="30" rows="6" required placeholder="Estudios a cotizar"></textarea>
                                     </div>
                                 </div>
 
                                 <div class="col-lg-12 col-md-12">
                                     <div class="send-btn">
                                         <button type="submit" class="send-btn-one">
-                                            Send Message
+                                            Enviar
                                         </button>
                                     </div>
                                 </div>
@@ -284,12 +284,12 @@
                     <div class="contact-info">
                         <div class="contact-info-content">
                             <h2>
-                                <a href="tel:+0881306298615">
-                                    +088 130 629 8615
+                                <a href="tel:+800 501 55 55">
+                                    +800 501 55 55
                                 </a>
-                                <span>OR</span>
-                                <a href="mailto:valzo@gmail.com">
-                                    valzo@gmail.com
+                                <span>/</span>
+                                <a href="mailto:atencionaclientes@laboratorioschontalpa.com.mx">
+                                    atencionaclientes@laboratorioschontalpa.com.mx
                                 </a>
                             </h2>
 
@@ -301,17 +301,7 @@
                                 </li>
                                 <li>
                                     <a href="#" target="_blank">
-                                        <i class="flaticon-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" target="_blank">
                                         <i class="flaticon-instagram"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" target="_blank">
-                                        <i class="flaticon-pinterest"></i>
                                     </a>
                                 </li>
                             </ul>

@@ -11,6 +11,7 @@ import HomePageSeven from '../components/pages/HomePageSeven'
 import HomePageEight from '../components/pages/HomePageEight' 
 import HomePageNine from '../components/pages/HomePageNine'
 import AboutPage from '../components/pages/AboutPage'
+import LocalizaTuSucursalPage from '../components/pages/LocalizaTuSucursalPage'
 import ServicesOnePage from '../components/pages/ServicesOnePage'
 import ServicesTwoPage from '../components/pages/ServicesTwoPage'
 import SingleServicesPage from '../components/pages/SingleServicesPage'
@@ -41,6 +42,7 @@ const routes = [
     {path: '/home-eight', component: HomePageEight},
     {path: '/home-nine', component: HomePageNine},
     {path: '/about', component: AboutPage},
+    {path: '/localiza-tu-sucursal', component: LocalizaTuSucursalPage},
     {path: '/services-one', component: ServicesOnePage},
     {path: '/services-two', component: ServicesTwoPage},
     {path: '/single-services', component: SingleServicesPage},

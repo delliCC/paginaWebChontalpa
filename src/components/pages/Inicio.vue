@@ -6,7 +6,7 @@
         <DatosChontalpa />
         <QuieneSomos />
         <Servicios />
-        <Development />
+        <ProcesoChontalpa />
         <!-- <Choose /> -->
         <Blog />
         <Footer />
@@ -21,7 +21,7 @@ import Banner from '../Inicio/Banner'
 import DatosChontalpa from '../Common/DatosChontalpa'
 import QuieneSomos from '../Common/QuieneSomos'
 import Servicios from '../Inicio/Servicios'
-import Development from '../Inicio/Development'
+import ProcesoChontalpa from '../Inicio/ProcesoChontalpa'
 // import Choose from '../Inicio/Choose'
 import Blog from '../Common/Blog'
 import Footer from '../Layout/Footer'
@@ -36,7 +36,7 @@ export default {
         DatosChontalpa,
         QuieneSomos,
         Servicios,
-        Development,
+        ProcesoChontalpa,
         // Choose,
         Blog,
         Footer,

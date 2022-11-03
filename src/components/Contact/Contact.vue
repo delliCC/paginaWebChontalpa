@@ -4,20 +4,20 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="contact-text">
-                        <h3>Have Any Questions About Us?</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore </p>
+                        <h3>¿Quieres que te realicemos una cotización?</h3>
+                        <p>Déjanos tus datos y nos pondremos en contacto.</p>
                     </div>
 
                     <div class="contact-form">
                         <form id="contactForm">
                             <div class="form-group">
-                                <label>Name</label>
-                                <input type="text" name="name" id="name" class="form-control" required placeholder="Name">
+                                <label>Nombre</label>
+                                <input type="text" name="name" id="name" class="form-control" required placeholder="Nombre">
                             </div>
                             
                             <div class="form-group">
-                                <label>Email</label>
-                                <input type="email" name="email" id="email" class="form-control" required placeholder="Your Email">
+                                <label>Correo electrónico</label>
+                                <input type="email" name="email" id="email" class="form-control" required placeholder="Correo electrónico">
                             </div>
                             
                             <div class="form-group">
@@ -26,13 +26,13 @@
                             </div>
                             
                             <div class="form-group">
-                                <label>Message</label>
-                                <textarea name="message" class="form-control" id="message" cols="30" rows="6" required placeholder="Your Message"></textarea>
+                                <label>Estudios a cotizar</label>
+                                <textarea name="message" class="form-control" id="message" cols="30" rows="6" required placeholder="Estudios a cotizar"></textarea>
                             </div>
 
                             <div class="send-btn">
                                 <button type="submit" class="default-btn">
-                                    Send Message
+                                    Enviar
                                 </button>
                             </div>
                         </form>

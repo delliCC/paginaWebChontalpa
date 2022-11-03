@@ -20,15 +20,9 @@
                     </div>
 
                     <div class="development-content">
-                         <div class="icon">
-                            <i class="flaticon-blog"></i>
-                            <!-- <img width="40" height="40" title="Sucursal" src="https://laboratorios-chontalpa-file.s3.amazonaws.com/assets/ANALISIS.png" alt="Sucursal"> -->
-
-                        </div> 
-                        <!-- <div class="sucursalImg">
-                            <img width="40" height="40" title="Sucursal" src="https://laboratorios-chontalpa-file.s3.amazonaws.com/assets/ANALISIS.png" alt="Sucursal">
-
-                        </div> -->
+                        <div class="iconTomaMuestra">
+                            <img width="40" height="40" title="toma de muestra" src="https://laboratorios-chontalpa-file.s3.amazonaws.com/assets/ANALISIS.png" alt="Sucursal">
+                        </div>
                         <h3>Toma de muestra</h3>
                         <p>
                             Su muestra es realizada por personal Chontalpa acreditado y es identificada con un código de barras rastreable para su mayor seguridad.
@@ -36,24 +30,24 @@
                     </div>
 
                     <div class="development-content">
-                        <div class="icon bg-05dbcf">
-                            <i class="flaticon-setting"></i>
+                        <div class="iconTraslado">
+                            <img width="40" height="40" title="translado de muestra" src="https://laboratorios-chontalpa-file.s3.amazonaws.com/assets/TRASLADO.png" alt="Sucursal">
                         </div>
                         <h3>TRASLADO DE MUESTRA</h3>
                         <p>Su muestra es transportada de manera segura y confiable con el protocolo de bioseguridad Chontalpa hacia el laboratorio central.</p>
                     </div>
 
                     <div class="development-content">
-                        <div class="icon bg-fec66f">
-                            <i class="flaticon-cellphone"></i>
+                        <div class="iconAnalisisMuestra">
+                            <img width="40" height="40" title="analisis de muestra" src="https://laboratorios-chontalpa-file.s3.amazonaws.com/assets/analisis_muestra_icon.png" alt="Sucursal">
                         </div>
                         <h3>ANÁLISIS DE MUESTRA</h3>
                         <p>La muestra se analiza con equipos de tecnología avanzada, cumpliendo con los más altos controles de calidad a nivel mundial..</p>
                     </div>
 
                     <div class="development-content">
-                        <div class="icon bg-66a6ff">
-                            <i class="flaticon-devices"></i>
+                        <div class="iconEntregaResult">
+                            <img width="40" height="40" title="entrega de resultados" src="https://laboratorios-chontalpa-file.s3.amazonaws.com/assets/ENTREGA_icon.png" alt="Sucursal">
                         </div>
                         <h3>ENTREGA DE RESULTADOS</h3>
                         <p>Se envían los resultados de manera confidencial, vía electrónica. Resultados con autenticidad QR, rápidos, seguros y confiables..</p>
@@ -66,6 +60,6 @@
 
 <script>
     export default {
-        name: 'Development'
+        name: 'ProcesoChontalpa'
     }
 </script>

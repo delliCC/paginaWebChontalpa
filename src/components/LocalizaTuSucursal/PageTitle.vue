@@ -4,10 +4,10 @@
             <div class="d-table-cell">
                 <div class="container">
                     <div class="page-title-content">
-                        <h2>Faq</h2>
+                        <h2>Localiza Tu Sucursal</h2>
                         <ul>
                             <li><router-link to="/">Inicio</router-link></li>
-                            <li>Faq</li>
+                            <li>About</li>
                         </ul>
                     </div>
                 </div>

@@ -1,11 +1,12 @@
 <template>
-    <div class="faq-section ptb-100">
+    <div class="faq-section pb-100">
         <div class="container">
             <div class="section-title">
-                <h2>P <span>Asked</span> Questions</h2>
+                <h2>Preguntas <span>Frecuentes</span></h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
                 <div class="bar"></div>
             </div>
+
 
             <div class="row align-items-center">
                 <div class="col-lg-6">
@@ -14,7 +15,7 @@
                             <accordion-item>
                                 <template v-slot:accordion-trigger>
                                     <button class="accordion-title">
-                                        What's The Difference Between IDS And IBS?
+                                        Como?
                                         <span></span>
                                         <i class='bx bx-chevron-down'></i>
                                     </button>
@@ -78,7 +79,7 @@ import Accordion from "../Common/Accordion";
 import AccordionItem from "../Common/AccordionItem";
 
 export default {
-    name: 'Faq',
+    name: 'Preguntas',
     components: {
         Accordion,
         AccordionItem
