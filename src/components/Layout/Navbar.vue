@@ -56,6 +56,11 @@
                                                 Ultrasonido
                                             </router-link>
                                         </li>
+                                        <li class="nav-item">
+                                            <router-link  to="/ultrasonido" class="nav-link">
+                                                aaa
+                                            </router-link>
+                                        </li>
                                     </ul>
                                 </li>
 
