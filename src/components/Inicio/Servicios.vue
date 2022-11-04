@@ -20,7 +20,7 @@
                             Serie de estudios que ayudan en la detección, prevención y diagnóstico temprano de factores de riesgo.
                         </p>
                         <br>
-                        <router-link to="/single-services" class="read-btn">Más información</router-link>
+                        <router-link to="/analisis-clinicos" class="read-btn">Más información</router-link>
                     </div>
                 </div>
 
@@ -64,7 +64,6 @@
                         <p style="font-size: 14px;">
                             Método de apoyo para un diagnóstico preciso a través de ondas sonoras ofreciendo una imagen eficiente.
                         </p>
-                        <br>
                         <router-link to="/single-services" class="read-btn">Más información</router-link>
                     </div>
                 </div>

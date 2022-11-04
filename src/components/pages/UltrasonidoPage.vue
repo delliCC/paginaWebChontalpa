@@ -10,13 +10,13 @@
 
 <script>
     import Navbar from '../Layout/Navbar'
-    import PageTitle from '../SingleServices/PageTitle'
-    import ServicesDetails from '../SingleServices/ServicesDetails'
+    import PageTitle from '../Ultrasonido/PageTitle'
+    import ServicesDetails from '../Ultrasonido/ServicesDetails'
     import Footer from '../Layout/Footer'
     import CopyRight from '../Layout/CopyRight'
 
     export default {
-        name: 'SingleServicesPage',
+        name: 'UltrasonidoPage',
         components: {
             Navbar,
             PageTitle,

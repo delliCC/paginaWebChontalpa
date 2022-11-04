@@ -14,9 +14,9 @@ import AboutPage from '../components/pages/AboutPage'
 import LocalizaTuSucursalPage from '../components/pages/LocalizaTuSucursalPage'
 import ServicesOnePage from '../components/pages/ServicesOnePage'
 import ServicesTwoPage from '../components/pages/ServicesTwoPage'
-import SingleServicesPage from '../components/pages/SingleServicesPage'
+import UltrasonidoPage from '../components/pages/UltrasonidoPage'
 import ProjectsPageOne from '../components/pages/ProjectsPageOne'
-import ProjectsPageTwo from '../components/pages/ProjectsPageTwo'
+import AnalisisClinicoPage from '../components/pages/AnalisisClinicoPage'
 import SingleProjectsPage from '../components/pages/SingleProjectsPage'
 import BlogOnePage from '../components/pages/BlogOnePage'
 import BlogTwoPage from '../components/pages/BlogTwoPage'
@@ -45,9 +45,9 @@ const routes = [
     {path: '/localiza-tu-sucursal', component: LocalizaTuSucursalPage},
     {path: '/services-one', component: ServicesOnePage},
     {path: '/services-two', component: ServicesTwoPage},
-    {path: '/single-services', component: SingleServicesPage},
+    {path: '/ultrasonido', component: UltrasonidoPage},
     {path: '/projects-one', component: ProjectsPageOne},
-    {path: '/projects-two', component: ProjectsPageTwo},
+    {path: '/analisis-clinicos', component: AnalisisClinicoPage},
     {path: '/single-projects', component: SingleProjectsPage},
     {path: '/blog-one', component: BlogOnePage},
     {path: '/blog-two', component: BlogTwoPage},

@@ -35,7 +35,7 @@
 
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">
-                                        Services 
+                                        Servicios
                                         <i class='bx bx-chevron-down'></i>
                                     </a>
                                     <ul class="dropdown-menu">
@@ -52,8 +52,8 @@
                                         </li>
 
                                         <li class="nav-item">
-                                            <router-link  to="/single-services" class="nav-link">
-                                                Services Details
+                                            <router-link  to="/ultrasonido" class="nav-link">
+                                                Ultrasonido
                                             </router-link>
                                         </li>
                                     </ul>

@@ -2,8 +2,11 @@
     <div class="protfolio-section ptb-100">
         <div class="container">
             <div class="section-title">
-                <h2>Our <span>Impressive</span> Portfolio</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                <h3>La prevención es la <span> mejor medicina</span> .</h3>
+                <p>
+                    Los análisis clínicos consisten en el estudio de los componentes de muestras biológicas que se toman del cuerpo, tales como la sangre, la orina, el tejido, etc. Los resultados de los análisis clínicos son de valiosa utilidad para el médico ya que le permiten confirmar o descartar un determinado diagnóstico.
+                </p>
+                
                 <div class="bar"></div>
             </div>
 
@@ -143,6 +146,6 @@
 
 <script>
     export default {
-        name: 'Protfolio'
+        name: 'Analisis'
     }
 </script>

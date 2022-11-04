@@ -1,8 +1,8 @@
 <template>
     <div>
-        <div class="services-details-area ptb-100">
+        <div class="services-details-area ptb-70">
             <div class="container">
-                <div class="services-details-video">
+                <!-- <div class="services-details-video">
                     <div class="details-image">
                         <img src="../../assets/images/services-details-bg.jpg" alt="image">
                     </div>
@@ -19,16 +19,18 @@
 
                     <div class="text">
                         <h3>We Provide Useful Services</h3>
-                        <p>Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quia non numquam eius modi tempora incidunt ut labore et dolore magnam dolor sit amet, consectetur.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>El Ultrasonido es un método de imagen realizado por medio de ondas sonoras que nos ayuda a determinar una conclusión diagnóstica clara y específica.</p>
                     </div>
-                </div>
+                </div> -->
 
-                <div class="services-details-overview">
+                <!-- <div class="services-details-overview">
                     <div class="row align-items-center">
                         <div class="col-lg-6 col-md-12">
                             <div class="services-details-desc">
                                 <h3>Exceptional Best Products</h3>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                                <p>
+                                    En Laboratorios Chontalpa contamos con una amplia gama de estudios de ultrasonido realizado por personal altamente capacitado, con equipos de alta resolución y tecnología.
+                                </p>
 
                                 <div class="features-text">
                                     <h4>Reasons to Go with vegetables</h4>
@@ -38,7 +40,7 @@
                                 <div class="features-text">
                                     <h4>Summer Vegetables Fruits Collection</h4>
                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
-                                </div>
+                                </div> 
                             </div>
                         </div>
 
@@ -48,20 +50,25 @@
                             </div>
                         </div>
                     </div>
+                </div> -->
+                <div class="ultrasonido-title ptb-70">
+                    <p>El Ultrasonido es un método de imagen realizado por medio de ondas sonoras que nos ayuda a determinar una conclusión diagnóstica clara y específica.</p>
                 </div>
 
                 <div class="services-details-overview">
                     <div class="row align-items-center">
                         <div class="col-lg-6 col-md-12">
                             <div class="services-details-image">
-                                <img src="../../assets/images/services-details-2.jpg" alt="image">
+                                <img src="https://www.laboratorioschontalpa.com.mx/wp-content/uploads/2022/07/usg.png" alt="image">
                             </div>
                         </div>
 
                         <div class="col-lg-6 col-md-12">
                             <div class="services-details-desc">
-                                <h3>We Provide Useful Services</h3>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+                                <!-- <h3>We Provide Useful Services</h3> -->
+                                <p>
+                                    En Laboratorios Chontalpa contamos con una amplia gama de estudios de ultrasonido realizado por personal altamente capacitado, con equipos de alta resolución y tecnología.
+                                </p>
 
                                 <div class="services-details-accordion">
                                     <ServicesAccordion />
@@ -69,7 +76,33 @@
                             </div>
                         </div>
                     </div>
-                </div>   
+                </div>
+                <div class="services-details-video">
+                    <!-- <div class="details-image">
+                        <img src="../../assets/images/services-details-bg.jpg" alt="image">
+                    </div> -->
+
+                    <!-- <div class="details-video">
+                        <div
+                            class="video-btn popup-youtube"
+                            v-on:click="isPopupMethod(isPopup)"
+                            style="cursor: pointer"
+                        >
+                            <i class="bx bx-play"></i>
+                        </div>
+                    </div> -->
+
+                    <div class="tienesDudas">
+                        <h3>¿Tienes alguna duda?</h3>
+                        <a class="btnLLamanos" href="tel:8005015555"><span class="fusion-button-text">LLAME AL: 800 501 55 55</span></a>
+                    </div>
+                    <div style="width: 100%; display: flex; margin-bottom: 40px;">
+                        <div style="width: 33%; height: 5px; background: #00944C;"></div>
+                        <div style="width: 33%; height: 5px; background: #FF6600;"></div>
+                        <div style="width: 33%; height: 5px; background: #0071B6;"></div>
+                    </div>
+                </div>
+
             </div>
         </div>
         <div 
@@ -95,7 +128,7 @@
 </template>
 
 <script>
-import ServicesAccordion from '../SingleServices/ServicesAccordion'
+import ServicesAccordion from '../Ultrasonido/ServicesAccordion'
 
 export default {
     name: 'ServicesDetails',

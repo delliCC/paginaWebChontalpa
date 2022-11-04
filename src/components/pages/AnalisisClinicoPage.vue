@@ -10,13 +10,13 @@
 
 <script>
     import Navbar from '../Layout/Navbar'
-    import PageTitle from '../ProjectsTwo/PageTitle'
-    import Protfolio from '../ProjectsTwo/Protfolio'
+    import PageTitle from '../AnalisisClinico/PageTitle'
+    import Protfolio from '../AnalisisClinico/Analisis'
     import Footer from '../Layout/Footer'
     import CopyRight from '../Layout/CopyRight'
 
     export default {
-        name: 'ProjectsPageTwo',
+        name: 'AnalisisClinicoPage',
         components: {
             Navbar,
             PageTitle,

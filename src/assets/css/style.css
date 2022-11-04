@@ -332,6 +332,37 @@ img {
   -webkit-animation: animationFramesOne 20s infinite linear;
           animation: animationFramesOne 20s infinite linear;
 }
+.ultrasonido-title{
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  margin-top: 40px;
+}
+/* Delli */
+
+.tienesDudas{
+  display: flex;
+  justify-content: space-around;
+  margin: 40px;
+}
+
+.btnLLamanos {
+  display: inline-block;
+  padding: 14px 35px;
+  background-color: #009115;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 2px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border: none;
+}
+
+.btnLLamanos:hover {
+  background-color: #FF6600;
+  color: #ffffff;
+}
 
 /*-- Popup Video --*/
 .popup-video {
