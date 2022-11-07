@@ -12,12 +12,14 @@ import HomePageEight from '../components/pages/HomePageEight'
 import HomePageNine from '../components/pages/HomePageNine'
 import AboutPage from '../components/pages/AboutPage'
 import LocalizaTuSucursalPage from '../components/pages/LocalizaTuSucursalPage'
+import UnidadMovilPage from '../components/pages/UnidadMovilPage'
 import ServicesOnePage from '../components/pages/ServicesOnePage'
 import ServicesTwoPage from '../components/pages/ServicesTwoPage'
 import UltrasonidoPage from '../components/pages/UltrasonidoPage'
+import RayosXPage from '../components/pages/RayosXPage'
 import ProjectsPageOne from '../components/pages/ProjectsPageOne'
 import AnalisisClinicoPage from '../components/pages/AnalisisClinicoPage'
-import SingleProjectsPage from '../components/pages/SingleProjectsPage'
+// import SingleProjectsPage from '../components/pages/SingleProjectsPage'
 import BlogOnePage from '../components/pages/BlogOnePage'
 import BlogTwoPage from '../components/pages/BlogTwoPage'
 import SingleBlogPage from '../components/pages/SingleBlogPage'
@@ -43,12 +45,14 @@ const routes = [
     {path: '/home-nine', component: HomePageNine},
     {path: '/about', component: AboutPage},
     {path: '/localiza-tu-sucursal', component: LocalizaTuSucursalPage},
+    {path: '/unidad-movil', component: UnidadMovilPage},
     {path: '/services-one', component: ServicesOnePage},
     {path: '/services-two', component: ServicesTwoPage},
     {path: '/ultrasonido', component: UltrasonidoPage},
+    {path: '/rayos-x', component: RayosXPage},
     {path: '/projects-one', component: ProjectsPageOne},
     {path: '/analisis-clinicos', component: AnalisisClinicoPage},
-    {path: '/single-projects', component: SingleProjectsPage},
+    // {path: '/estudios-detalle/:id', component: SingleProjectsPage},
     {path: '/blog-one', component: BlogOnePage},
     {path: '/blog-two', component: BlogTwoPage},
     {path: '/single-blog', component: SingleBlogPage},

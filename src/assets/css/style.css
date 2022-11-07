@@ -344,6 +344,7 @@ img {
   display: flex;
   justify-content: space-around;
   margin: 40px;
+  width: 100%;
 }
 
 .btnLLamanos {
@@ -4823,7 +4824,7 @@ About Area CSS
 =================================================*/
 .about-tab {
   max-width: 620px;
-  padding: 100px 0;
+  /* padding: 100px 0; */
   margin-left: 50px;
 }
 
@@ -7173,7 +7174,7 @@ Services Details CSS
   line-height: 60px;
   background-color: #ffffff;
   border-radius: 50%;
-  color: #086AD8;
+  color: #FF6600;
   position: relative;
   z-index: 1;
 }

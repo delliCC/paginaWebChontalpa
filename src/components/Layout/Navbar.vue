@@ -35,7 +35,7 @@
 
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">
-                                        Servicios
+                                        Estudios
                                         <i class='bx bx-chevron-down'></i>
                                     </a>
                                     <ul class="dropdown-menu">
@@ -57,8 +57,8 @@
                                             </router-link>
                                         </li>
                                         <li class="nav-item">
-                                            <router-link  to="/ultrasonido" class="nav-link">
-                                                aaa
+                                            <router-link  to="/rayos-x" class="nav-link">
+                                                Rayos X
                                             </router-link>
                                         </li>
                                     </ul>
@@ -66,26 +66,26 @@
 
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">
-                                        Projects 
+                                        Servicios 
                                         <i class='bx bx-chevron-down'></i>
                                     </a>
 
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <router-link  to="/projects-one" class="nav-link">
-                                                Projects One
+                                            <router-link  to="/unidad-movil" class="nav-link">
+                                                Unidad Móvil
                                             </router-link>
                                         </li>
 
                                         <li class="nav-item">
-                                            <router-link  to="/projects-two" class="nav-link">
-                                                Projects Two
+                                            <router-link  to="#" class="nav-link">
+                                                Empresas
                                             </router-link>
                                         </li>
 
                                         <li class="nav-item">
-                                            <router-link  to="/single-projects" class="nav-link">
-                                                Projects details
+                                            <router-link  to="#" class="nav-link">
+                                                Médicos
                                             </router-link>
                                         </li>
                                     </ul>
