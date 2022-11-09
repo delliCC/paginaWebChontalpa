@@ -16,6 +16,7 @@ import UnidadMovilPage from '../components/pages/UnidadMovilPage'
 import MedicinaLaboralPage from '../components/pages/MedicinaLaboralPage'
 import ServicesTwoPage from '../components/pages/ServicesTwoPage'
 import Covid from '../components/pages/CovidPage'
+import MicrobiologiaPage from '../components/pages/MicrobiologiaPage'
 import UltrasonidoPage from '../components/pages/UltrasonidoPage'
 import RayosXPage from '../components/pages/RayosXPage'
 import ProjectsPageOne from '../components/pages/ProjectsPageOne'
@@ -50,6 +51,7 @@ const routes = [
     {path: '/medicina-laboral', component: MedicinaLaboralPage},
     {path: '/services-two', component: ServicesTwoPage},
     {path: '/pruebas-de-covid', component: Covid},
+    {path: '/microbiologia', component: MicrobiologiaPage},
     {path: '/ultrasonido', component: UltrasonidoPage},
     {path: '/rayos-x', component: RayosXPage},
     {path: '/projects-one', component: ProjectsPageOne},

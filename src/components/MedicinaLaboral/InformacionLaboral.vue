@@ -5,12 +5,6 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="services-details-desc">
                         <!-- <h3>Exceptional Best Products</h3> -->
-                        <p>
-                            Para una empresa es importante garantizar las condiciones óptimas de salud en sus colaboradores para 
-                            garantizar un correcto desempeño y obtener resultados positivos en la productividad y rendimiento 
-                            general.
-                        </p>
-
                         <div class="features-text">
                             <p>
                                 En Laboratorios Chontalpa entendemos la importancia que representa para usted el bienestar de sus 

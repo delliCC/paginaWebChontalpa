@@ -60,6 +60,11 @@
                                             </router-link>
                                         </li>
                                         <li class="nav-item">
+                                            <router-link  to="/microbiologia" class="nav-link">
+                                                Microbiología
+                                            </router-link>
+                                        </li>
+                                        <li class="nav-item">
                                             <router-link  to="/medicina-laboral" class="nav-link">
                                                 Medicina Laboral
                                             </router-link>
