@@ -1,5 +1,6 @@
 <template>
     <div>
+        <Cintillo />
         <Navbar />
         <PageTitle />
         <ServicesDetails />
@@ -12,6 +13,7 @@
 </template>
 
 <script>
+    import Cintillo from '../Inicio/Cintillo'
     import Navbar from '../Layout/Navbar'
     import PageTitle from '../RayosX/PageTitle'
     import ServicesDetails from '../RayosX/ServicesDetails'
@@ -24,6 +26,7 @@
     export default {
         name: 'RayosXPage',
         components: {
+            Cintillo,
             Navbar,
             PageTitle,
             ServicesDetails,

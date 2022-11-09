@@ -99,7 +99,7 @@
                                     </ul>
                                 </li>
 
-                                <li class="nav-item">
+                                <!-- <li class="nav-item">
                                     <a href="#" class="nav-link">
                                         Pages 
                                         <i class='bx bx-chevron-down'></i>
@@ -176,9 +176,20 @@
                                             
                                         </li>
                                     </ul>
+                                </li> -->
+
+                                <li class="nav-item">
+                                    <router-link  to="/blog" class="nav-link">
+                                        Blog
+                                    </router-link>
                                 </li>
 
                                 <li class="nav-item">
+                                    <router-link  to="/blog" class="nav-link">
+                                        Promociones
+                                    </router-link>
+                                </li>
+                                <!-- <li class="nav-item">
                                     <a href="#" class="nav-link">
                                         Blog 
                                         <i class='bx bx-chevron-down'></i>
@@ -202,7 +213,7 @@
                                             </router-link>
                                         </li>
                                     </ul>
-                                </li>
+                                </li> -->
 
                                 <li class="nav-item">
                                     <router-link  to="/contact" class="nav-link">

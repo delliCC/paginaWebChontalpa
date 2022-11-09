@@ -170,12 +170,9 @@
 </template>
 
 <script>
-import ServicesAccordion from '../Microbiologia/ServicesAccordion'
-
 export default {
     name: 'ServicesDetails',
     components: { 
-        ServicesAccordion
     },
     data (){
         return {

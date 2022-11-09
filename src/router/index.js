@@ -58,7 +58,7 @@ const routes = [
     {path: '/analisis-clinicos', component: AnalisisClinicoPage},
     // {path: '/estudios-detalle/:id', component: SingleProjectsPage},
     {path: '/blog-one', component: BlogOnePage},
-    {path: '/blog-two', component: BlogTwoPage},
+    {path: '/blog', component: BlogTwoPage},
     {path: '/single-blog', component: SingleBlogPage},
     {path: '/contact', component: ContactPage},
     {path: '/team', component: TeamPage},
