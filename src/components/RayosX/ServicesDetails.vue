@@ -11,7 +11,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-12 col-md-12">
                             <div class="services-details-image">
-                                <img src="https://www.laboratorioschontalpa.com.mx/wp-content/uploads/2022/08/280x500-1-1.png" alt="image">
+                                <img src="https://laboratorios-chontalpa-file.s3.amazonaws.com/assets/rayosx.png" alt="image">
                             </div>
                         </div>
                     </div>

@@ -2,28 +2,33 @@
     <div class="development-area ptb-100">
         <div class="container">
             <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <div style="width: 55%; margin: auto;">
+                        <div class="section-title">
+                            <h2>Proceso <span>Chontalpa</span></h2>
+                            <div class="bar"></div>
+                            <p>
+                                Tu muestra nunca sale de nuestras manos. Garantizamos la calidad de toma,
+                                traslado y análisis para resultados precisos, confiables y seguros en cada una de nuestras
+                                sucursales, con tecnología de apoyo diagnóstico automatizada.
+                            </p>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-lg-6">
                     <div class="development-image">
-                        <img src="../../assets/images/development.png" alt="image">
+                        <img src="https://laboratorios-chontalpa-file.s3.amazonaws.com/assets/proceso_chontalpa.png" alt="image">
                     </div>
                 </div>
 
                 <div class="col-lg-6">
-                    <div class="development-text">
-                        <h3>Proceso <span>Chontalpa</span></h3>
-                        <div class="bar"></div>
-                        <p>
-                            Tu muestra nunca sale de nuestras manos. Garantizamos la calidad de toma,
-                            traslado y análisis para resultados precisos, confiables y seguros en cada una de nuestras
-                            sucursales, con tecnología de apoyo diagnóstico automatizada.
-                        </p>
-                    </div>
+                    
 
                     <div class="development-content">
                         <div class="iconTomaMuestra">
                             <img width="40" height="40" title="toma de muestra" src="https://laboratorios-chontalpa-file.s3.amazonaws.com/assets/ANALISIS.png" alt="Sucursal">
                         </div>
-                        <h3>Toma de muestra</h3>
+                        <h3>TOMA DE MUESTRA</h3>
                         <p>
                             Su muestra es realizada por personal Chontalpa acreditado y es identificada con un código de barras rastreable para su mayor seguridad.
                         </p>

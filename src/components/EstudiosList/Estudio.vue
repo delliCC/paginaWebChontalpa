@@ -2,7 +2,7 @@
     <div class="protfolio-section ptb-100">
         <div class="container">
             <div class="section-title">
-                <h2>Nuestros <span>estudios</span></h2>
+                <h2>Nuestro <span>estudios</span></h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
                 <div class="bar"></div>
             </div>
@@ -49,7 +49,7 @@
 <script>
 
     export default {
-        name: 'Protfolio',
+        name: 'Estudio',
         data() {
             return {
                 array_estudios:[]
@@ -61,17 +61,17 @@
         methods:{
             estudios() {
                 this.$axios.get(`http://localhost/api/estudios`).then(response => {
+                    console.log(response);
                     this.array_estudios = response.data.data
-                    
                 }).catch(() => {
-                // this.$toast({
-                // component: ToastificationContent,
-                // props: {
-                //     title: 'Error al cargar datos',
-                //     icon: 'ThumbsDownIcon',
-                //     variant: 'danger',
-                // },
-                // })
+                    // this.$toast({
+                    // component: ToastificationContent,
+                    // props: {
+                    //     title: 'Error al cargar datos',
+                    //     icon: 'ThumbsDownIcon',
+                    //     variant: 'danger',
+                    // },
+                    // })
                 })
             },
         }
