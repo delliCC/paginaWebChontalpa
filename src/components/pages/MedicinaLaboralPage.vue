@@ -2,7 +2,9 @@
     <div>
         <Navbar />
         <PageTitle />
+        <InformacionLaboral />
         <Services />
+        <Dudas />
         <Footer />
         <CopyRight />
     </div>
@@ -10,17 +12,21 @@
 
 <script>
     import Navbar from '../Layout/Navbar'
-    import PageTitle from '../ServicesOne/PageTitle'
-    import Services from '../ServicesOne/Services'
+    import PageTitle from '../MedicinaLaboral/PageTitle'
+    import InformacionLaboral from '../MedicinaLaboral/InformacionLaboral'
+    import Services from '../MedicinaLaboral/Services'
+    import Dudas from '../Inicio/Dudas'
     import Footer from '../Layout/Footer'
     import CopyRight from '../Layout/CopyRight'
 
     export default {
-        name: 'ServicesOnePage',
+        name: 'MedicinaLaboralPage',
         components: {
             Navbar,
             PageTitle,
+            InformacionLaboral,
             Services,
+            Dudas,
             Footer,
             CopyRight,
         }

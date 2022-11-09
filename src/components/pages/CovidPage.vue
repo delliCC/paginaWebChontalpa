@@ -2,8 +2,10 @@
     <div>
         <Navbar />
         <PageTitle />
+        <ServicesDetails />
         <Pricing />
-        <Tab />
+        <!-- <BuscaEstudios /> -->
+        <Dudas />
         <Footer />
         <CopyRight />
     </div>
@@ -11,19 +13,23 @@
 
 <script>
     import Navbar from '../Layout/Navbar'
-    import PageTitle from '../RayosXIndicaciones/PageTitle'
-    import Pricing from '../RayosXIndicaciones/Pricing'
-    import Tab from '../RayosXIndicaciones/Tab'
+    import PageTitle from '../PruebasCovid/PageTitle'
+    import ServicesDetails from '../PruebasCovid/SliderCovid'
+    // import BuscaEstudios from '../EstudiosList/Estudio'
+    import Pricing from '../PruebasCovid/Pricing'
+    import Dudas from '../Inicio/Dudas'
     import Footer from '../Layout/Footer'
     import CopyRight from '../Layout/CopyRight'
 
     export default {
-        name: 'PricingPage',
+        name: 'RayosXPage',
         components: {
             Navbar,
             PageTitle,
             Pricing,
-            Tab,
+            ServicesDetails,
+            // BuscaEstudios,
+            Dudas,
             Footer,
             CopyRight,
         }

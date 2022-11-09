@@ -2002,7 +2002,7 @@ Services Area CSS
   text-align: center;
   margin-bottom: 30px;
   background-color: #ffffff;
-  padding: 30px;
+  padding: 20px;
   border-radius: 10px;
   position: relative;
   z-index: 1;
@@ -2127,9 +2127,9 @@ Services Area CSS
 .single-services-two.bg-2cdcf7:hover .icon i {
   color: #ffffff;
 }
-
+/**************Medicina laboral Delli *************************/
 .single-services-two.bg-009af0 {
-  border: 1px dashed #009af0;
+  border: 1px dashed #0071B6;
 }
 
 .single-services-two.bg-009af0 .icon i {
@@ -2137,7 +2137,7 @@ Services Area CSS
 }
 
 .single-services-two.bg-009af0::before {
-  background: #009af0;
+  background: #0071B6;
 }
 
 .single-services-two.bg-009af0:hover {
@@ -4609,8 +4609,9 @@ Pricing Area CSS
 }
 
 .single-pricing {
-  background-color: #c2f2fd;
-  padding: 50px 90px;
+  /* background-color: #f8f2f2; */
+  box-shadow: 2px 2px 5px 2px #aaaaaa;
+  padding: 50px 40px;
   text-align: center;
   margin-bottom: 30px;
   border-radius: 50px 4px 50px 4px;
@@ -4620,8 +4621,8 @@ Pricing Area CSS
   font-size: 25px;
   color: #000000;
   margin-bottom: 0;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  /* -webkit-transition: 0.5s;
+  transition: 0.5s; */
 }
 
 .single-pricing .pricing-header p {
@@ -4633,8 +4634,8 @@ Pricing Area CSS
 
 .single-pricing .price {
   display: inline-block;
-  height: 100px;
-  width: 100px;
+  /* height: 100px; */
+  width: 100%;
   line-height: 100px;
   background-color: #ffffff;
   font-size: 25px;
@@ -4677,7 +4678,7 @@ Pricing Area CSS
 }
 
 .single-pricing .pricing-list i {
-  color: #086AD8;
+  color: #FF6600;
   margin-right: 5px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -4687,6 +4688,15 @@ Pricing Area CSS
   margin-top: 25px;
 }
 
+.price-covid-btn{
+  background-color: #009115;
+  width: 30%;
+  color: #ffffff;
+  text-align: center;
+  margin: auto;
+  margin-top: 40px;
+  padding: 10px;
+}
 .single-pricing .price-btn .default-btn {
   -webkit-box-shadow: 0 5px 40px 0 rgba(0, 0, 0, 0.11);
           box-shadow: 0 5px 40px 0 rgba(0, 0, 0, 0.11);
@@ -6341,7 +6351,7 @@ Tab Area CSS
 }
 
 .schedule-list-tab .tabs .tabs__header .tabs__header-item:hover, .schedule-list-tab .tabs .tabs__header .tabs__header-item.active {
-  background-color: #086AD8;
+  background-color: #0071B6;
   color: #ffffff;
 }
 
@@ -6393,6 +6403,7 @@ Tab Area CSS
 
 .schedule-list-tab .tabs_item .tab-content p {
   margin-bottom: 0;
+  text-align: justify;
 }
 
 .schedule-list-tab .tabs_item .tab-content .tab-inner-content {
@@ -6458,9 +6469,9 @@ Page Title Area CSS
 .page-title-area.item-bg-2 {
   background-image: url(../images/page-bg-2.jpg);
 }
-
+/********* Covid Delli ******************/
 .page-title-area.item-bg-4 {
-  background-image: url(../images/page-bg-4.jpg);
+  background-image: url(https://laboratorios-chontalpa-file.s3.amazonaws.com/assets/fondo.png);
 }
 
 .page-title-area.item-bg-5 {

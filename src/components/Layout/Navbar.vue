@@ -40,17 +40,15 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <router-link  to="/services-one" class="nav-link">
-                                                Services
-                                            </router-link>
-                                        </li>
-
-                                        <li class="nav-item">
                                             <router-link  to="/services-two" class="nav-link">
                                                 Services Two
                                             </router-link>
                                         </li>
-
+                                        <li class="nav-item">
+                                            <router-link  to="/pruebas-de-covid" class="nav-link">
+                                                Pruebas de COVID-19
+                                            </router-link>
+                                        </li>
                                         <li class="nav-item">
                                             <router-link  to="/ultrasonido" class="nav-link">
                                                 Ultrasonido
@@ -59,6 +57,11 @@
                                         <li class="nav-item">
                                             <router-link  to="/rayos-x" class="nav-link">
                                                 Rayos X
+                                            </router-link>
+                                        </li>
+                                        <li class="nav-item">
+                                            <router-link  to="/medicina-laboral" class="nav-link">
+                                                Medicina Laboral
                                             </router-link>
                                         </li>
                                     </ul>

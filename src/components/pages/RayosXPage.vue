@@ -4,6 +4,7 @@
         <PageTitle />
         <ServicesDetails />
         <!-- <BuscaEstudios /> -->
+        <RXIndicaciones />
         <Dudas />
         <Footer />
         <CopyRight />
@@ -14,6 +15,7 @@
     import Navbar from '../Layout/Navbar'
     import PageTitle from '../RayosX/PageTitle'
     import ServicesDetails from '../RayosX/ServicesDetails'
+    import RXIndicaciones from '../RayosXIndicaciones/Tab'
     // import BuscaEstudios from '../EstudiosList/Estudio'
     import Dudas from '../Inicio/Dudas'
     import Footer from '../Layout/Footer'
@@ -25,6 +27,7 @@
             Navbar,
             PageTitle,
             ServicesDetails,
+            RXIndicaciones,
             // BuscaEstudios,
             Dudas,
             Footer,

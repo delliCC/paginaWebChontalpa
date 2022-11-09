@@ -13,8 +13,9 @@ import HomePageNine from '../components/pages/HomePageNine'
 import AboutPage from '../components/pages/AboutPage'
 import LocalizaTuSucursalPage from '../components/pages/LocalizaTuSucursalPage'
 import UnidadMovilPage from '../components/pages/UnidadMovilPage'
-import ServicesOnePage from '../components/pages/ServicesOnePage'
+import MedicinaLaboralPage from '../components/pages/MedicinaLaboralPage'
 import ServicesTwoPage from '../components/pages/ServicesTwoPage'
+import Covid from '../components/pages/CovidPage'
 import UltrasonidoPage from '../components/pages/UltrasonidoPage'
 import RayosXPage from '../components/pages/RayosXPage'
 import ProjectsPageOne from '../components/pages/ProjectsPageOne'
@@ -46,8 +47,9 @@ const routes = [
     {path: '/about', component: AboutPage},
     {path: '/localiza-tu-sucursal', component: LocalizaTuSucursalPage},
     {path: '/unidad-movil', component: UnidadMovilPage},
-    {path: '/services-one', component: ServicesOnePage},
+    {path: '/medicina-laboral', component: MedicinaLaboralPage},
     {path: '/services-two', component: ServicesTwoPage},
+    {path: '/pruebas-de-covid', component: Covid},
     {path: '/ultrasonido', component: UltrasonidoPage},
     {path: '/rayos-x', component: RayosXPage},
     {path: '/projects-one', component: ProjectsPageOne},
