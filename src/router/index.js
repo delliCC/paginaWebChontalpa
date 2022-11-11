@@ -19,16 +19,17 @@ import Covid from '../components/pages/CovidPage'
 import MicrobiologiaPage from '../components/pages/MicrobiologiaPage'
 import UltrasonidoPage from '../components/pages/UltrasonidoPage'
 import RayosXPage from '../components/pages/RayosXPage'
+import PromocionesPage from '../components/pages/PromocionesPage'
 import ProjectsPageOne from '../components/pages/ProjectsPageOne'
 import AnalisisClinicoPage from '../components/pages/AnalisisClinicoPage'
 // import SingleProjectsPage from '../components/pages/SingleProjectsPage'
 import BlogOnePage from '../components/pages/BlogOnePage'
-import BlogTwoPage from '../components/pages/BlogTwoPage'
+import BlogPage from '../components/pages/BlogPage'
 import SingleBlogPage from '../components/pages/SingleBlogPage'
 import ContactPage from '../components/pages/ContactPage'
 import TeamPage from '../components/pages/TeamPage'
 import PricingPage from '../components/pages/PricingPage'
-import FaqPage from '../components/pages/FaqPage'
+import PreguntasFrecuentesPage from '../components/pages/PreguntasFrecuentesPage'
 import LogInPage from '../components/pages/LogInPage'
 import SignUpPage from '../components/pages/SignUpPage'
 import TermsConditionsPage from '../components/pages/TermsConditionsPage'
@@ -54,16 +55,17 @@ const routes = [
     {path: '/microbiologia', component: MicrobiologiaPage},
     {path: '/ultrasonido', component: UltrasonidoPage},
     {path: '/rayos-x', component: RayosXPage},
+    {path: '/promociones', component: PromocionesPage},
     {path: '/projects-one', component: ProjectsPageOne},
     {path: '/analisis-clinicos', component: AnalisisClinicoPage},
     // {path: '/estudios-detalle/:id', component: SingleProjectsPage},
     {path: '/blog-one', component: BlogOnePage},
-    {path: '/blog', component: BlogTwoPage},
+    {path: '/blog', component: BlogPage},
     {path: '/single-blog', component: SingleBlogPage},
     {path: '/contact', component: ContactPage},
     {path: '/team', component: TeamPage},
     {path: '/pricing', component: PricingPage},
-    {path: '/faq', component: FaqPage},
+    {path: '/preguntas-frecuentes', component: PreguntasFrecuentesPage},
     {path: '/log-in', component: LogInPage},
     {path: '/sign-up', component: SignUpPage},
     {path: '/terms-condition', component: TermsConditionsPage},

@@ -1,5 +1,6 @@
 <template>
     <div>
+        <Cintillo />
         <Navbar />
         <PageTitle />
         <ServicesDetails />
@@ -9,6 +10,7 @@
 </template>
 
 <script>
+    import Cintillo from '../Inicio/Cintillo'
     import Navbar from '../Layout/Navbar'
     import PageTitle from '../Microbiologia/PageTitle'
     import ServicesDetails from '../Microbiologia/ServicesDetails'
@@ -18,6 +20,7 @@
     export default {
         name: 'MicrobiologiaPage',
         components: {
+            Cintillo,
             Navbar,
             PageTitle,
             ServicesDetails,

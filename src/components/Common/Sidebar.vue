@@ -12,7 +12,7 @@
             </form>
         </div>
         <div class="widget widget_fria_posts_thumb">
-            <h3 class="widget-title">Popular Posts</h3>
+            <h3 class="widget-title">Blog Popular</h3>
             <article class="item">
                 <a href="#" class="thumb">
                     <span class="fullimage cover bg1" role="img"></span>
@@ -51,7 +51,7 @@
         </div>
 
         <div class="widget widget_categories">
-            <h3 class="widget-title">Categories</h3>
+            <h3 class="widget-title">Categorias</h3>
             <ul>
                 <li>
                     <router-link to="/">Business</router-link>
@@ -71,7 +71,7 @@
             </ul>
         </div>
 
-        <div class="widget widget_recent_comments">
+        <!-- <div class="widget widget_recent_comments">
             <h3 class="widget-title">Recent Comments</h3>
             <ul>
                 <li>
@@ -110,10 +110,10 @@
                     <router-link to="/">Hello world!</router-link>
                 </li>
             </ul>
-        </div>
+        </div> -->
 
         <div class="widget widget_recent_entries">
-            <h3 class="widget-title">Recent Posts</h3>
+            <h3 class="widget-title">Blog Recientes</h3>
             <ul>
                 <li>
                     <router-link to="/">How to Become a Successful Entry Level UX Designer</router-link>
@@ -133,7 +133,7 @@
             </ul>
         </div>
 
-        <div class="widget widget_meta">
+        <!-- <div class="widget widget_meta">
             <h3 class="widget-title">Meta</h3>
             <ul>
                 <li>
@@ -153,9 +153,9 @@
                     <router-link to="/">WordPress.org</router-link>
                 </li>
             </ul>
-        </div>
+        </div> -->
 
-        <div class="widget widget_archive">
+        <!-- <div class="widget widget_archive">
             <h3 class="widget-title">Archives</h3>
             <ul>
                 <li>
@@ -168,9 +168,9 @@
                     <router-link to="/">June 2022</router-link>
                 </li>
             </ul>
-        </div>
+        </div> -->
 
-        <div class="widget widget_tag_cloud">
+        <!-- <div class="widget widget_tag_cloud">
             <h3 class="widget-title">Tags</h3>
             <div class="tagcloud section-bottom">
                 <router-link to="/">
@@ -206,7 +206,7 @@
                     <span class="tag-link-count"> (2)</span>
                 </router-link>
             </div>
-        </div>
+        </div> -->
     </aside>
 </template>
 

@@ -185,7 +185,7 @@
                                 </li>
 
                                 <li class="nav-item">
-                                    <router-link  to="/blog" class="nav-link">
+                                    <router-link  to="/promociones" class="nav-link">
                                         Promociones
                                     </router-link>
                                 </li>

@@ -2,7 +2,8 @@
     <div>
         <Navbar />
         <PageTitle />
-        <Blog />
+        <Pricing />
+        <!-- <Tab /> -->
         <Footer />
         <CopyRight />
     </div>
@@ -10,17 +11,19 @@
 
 <script>
     import Navbar from '../Layout/Navbar'
-    import PageTitle from '../BlogTwo/PageTitle'
-    import Blog from '../BlogTwo/Blog'
+    import PageTitle from '../PreguntasF/PageTitle'
+    import Pricing from '../PreguntasF/Faq'
+    // import Tab from '../PreguntasF/Tab'
     import Footer from '../Layout/Footer'
     import CopyRight from '../Layout/CopyRight'
 
     export default {
-        name: 'BlogTwoPage',
+        name: 'FaqPage',
         components: {
             Navbar,
             PageTitle,
-            Blog,
+            Pricing,
+            // Tab,
             Footer,
             CopyRight,
         }

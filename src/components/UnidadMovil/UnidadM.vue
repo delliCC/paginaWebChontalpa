@@ -15,7 +15,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 p-0">
-                    <div class="services-details-video">
+                    <div class="services-details-video" style="width: 70%; margin: auto;">
                         <div class="details-image">
                             <img src="https://www.laboratorioschontalpa.com.mx/wp-content/uploads/2022/09/WhatsApp-Image-2022-09-19-at-11.17.28-AM-1.jpeg" alt="image">
                         </div>

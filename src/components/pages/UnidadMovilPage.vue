@@ -1,5 +1,6 @@
 <template>
     <div>
+        <Cintillo />
         <Navbar />
         <PageTitle />
         <Mapa />
@@ -14,6 +15,7 @@
 </template>
 
 <script>
+    import Cintillo from '../Inicio/Cintillo'
     import Navbar from '../Layout/Navbar'
     import PageTitle from '../UnidadMovil/PageTitle'
     // import LocalizaSucursal from '../UnidadMovil/LocalizaSucursal'
@@ -28,6 +30,7 @@
     export default {
         name: 'UnidadMovilPage',
         components: {
+            Cintillo,
             Navbar,
             PageTitle,
             Mapa,

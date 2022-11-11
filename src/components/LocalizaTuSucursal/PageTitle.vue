@@ -7,7 +7,7 @@
                         <h2>Localiza Tu Sucursal</h2>
                         <ul>
                             <li><router-link to="/">Inicio</router-link></li>
-                            <li>About</li>
+                            <li>sucursales</li>
                         </ul>
                     </div>
                 </div>

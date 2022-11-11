@@ -143,7 +143,7 @@ img {
 }
 
 .pb-100 {
-  padding-bottom: 100px;
+  padding-bottom: 70px;
 }
 
 .pt-70 {
@@ -5177,7 +5177,7 @@ FAQ Area CSS
   display: block;
   margin-bottom: 15px;
   background-color: #f7f5fd;
-  padding: 25px;
+  padding: 15px;
 }
 
 .faq-accordion .accordion .accordion__item:last-child {
@@ -7267,7 +7267,10 @@ Services Details CSS
   font-size: 30px;
   margin: 25px 0 10px 0;
 }
-
+/* Delli promociones  */
+.bodyPromociones{
+  
+}
 /*================================================
 Projects Details Area CSS
 =================================================*/

@@ -26,13 +26,13 @@
                     <div class="col-lg-6 col-md-6">
                         <ul>
                             <li>
-                                <router-link to="/terms-condition">Bolsa de Trabajo</router-link>
+                                <router-link to="#">Bolsa de Trabajo</router-link>
                             </li>
                             <li>
-                                <router-link to="/privacy-policy">Preguntas Frecuentes</router-link>
+                                <router-link to="/preguntas-frecuentes">Preguntas Frecuentes</router-link>
                             </li>
                             <li>
-                                <router-link to="/privacy-policy">Consulta tus resultados</router-link>
+                                <router-link to="https://www.laboratorioschontalpa.com.mx/consulta-tus-resultados/">Consulta tus resultados</router-link>
                             </li>
                         </ul>
                     </div>

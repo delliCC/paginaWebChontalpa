@@ -3,8 +3,9 @@
         <Cintillo />
         <Navbar />
         <PageTitle />
-        <InformacionLaboral />
-        <Services />
+        <ServicesDetails />
+        <!-- <BuscaEstudios /> -->
+        <Tab />
         <Dudas />
         <Footer />
         <CopyRight />
@@ -14,21 +15,23 @@
 <script>
     import Cintillo from '../Inicio/Cintillo'
     import Navbar from '../Layout/Navbar'
-    import PageTitle from '../MedicinaLaboral/PageTitle'
-    import InformacionLaboral from '../MedicinaLaboral/InformacionLaboral'
-    import Services from '../MedicinaLaboral/Services'
+    import PageTitle from '../Promociones/PageTitle'
+    import ServicesDetails from '../Promociones/Promocion'
+    import Tab from '../Promociones/Tab'
+    // import BuscaEstudios from '../EstudiosList/Estudio'
     import Dudas from '../Inicio/Dudas'
     import Footer from '../Layout/Footer'
     import CopyRight from '../Layout/CopyRight'
 
     export default {
-        name: 'MedicinaLaboralPage',
+        name: 'PromocionesPage',
         components: {
             Cintillo,
             Navbar,
             PageTitle,
-            InformacionLaboral,
-            Services,
+            ServicesDetails,
+            Tab,
+            // BuscaEstudios,
             Dudas,
             Footer,
             CopyRight,
