@@ -28,9 +28,8 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="single-services-two bg-009af0">
-                        <div class="icon">
-                            <i class="flaticon-setting"></i>
-                        </div>
+                        <img src="https://laboratorios-chontalpa-file.s3.amazonaws.com/assets/medicina_laboral/oftamologia_icon.png" width="100" height="99" alt="analisis clinicos icon" title="Laboratorios Chontalpa 3">
+
                         <h3>Oftalmología</h3>
                         <p>
                             La oftalmología es la especialidad médica encargada del estudio y tratamiento de las enfermedades 
@@ -41,9 +40,8 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="single-services-two bg-009af0">
-                        <div class="icon">
-                            <i class="flaticon-promotion"></i>
-                        </div>
+                        <img src="https://laboratorios-chontalpa-file.s3.amazonaws.com/assets/medicina_laboral/oftamologia_icon.png" width="100" height="99" alt="analisis clinicos icon" title="Laboratorios Chontalpa 3">
+
                         <h3>Audiometría</h3>
                         <p>
                             Este examen evalúa su capacidad para escuchar sonidos. Los sonidos varían de acuerdo con el volumen o fuerza.
@@ -53,9 +51,7 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="single-services-two bg-009af0">
-                        <div class="icon">
-                            <i class="flaticon-cellphone"></i>
-                        </div>
+                        <img src="https://laboratorios-chontalpa-file.s3.amazonaws.com/assets/medicina_laboral/espirometria_icon.png" width="100" height="99" alt="analisis clinicos icon" title="Laboratorios Chontalpa 3">
                         <h3>Espirometría</h3>
                         <p>
                             La espirometría es la técnica de exploración de la función respiratoria que mide los flujos y los volúmenes respiratorios.
@@ -65,9 +61,8 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="single-services-two bg-009af0">
-                        <div class="icon">
-                            <i class="flaticon-shopping-cart"></i>
-                        </div>
+                        <img src="https://laboratorios-chontalpa-file.s3.amazonaws.com/assets/medicina_laboral/ultrasonido.png" width="100" height="99" alt="analisis clinicos icon" title="Laboratorios Chontalpa 3">
+
                         <h3>Ultrasonido</h3>
                         <p>
                             El ultrasonido utiliza ondas sonoras para producir fotografías de las estructuras internas del cuerpo.
@@ -78,9 +73,8 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="single-services-two bg-009af0">
-                        <div class="icon">
-                            <i class="flaticon-optimize"></i>
-                        </div>
+                        <img src="https://laboratorios-chontalpa-file.s3.amazonaws.com/assets/medicina_laboral/rayosX.png" width="100" height="99" alt="analisis clinicos icon" title="Laboratorios Chontalpa 3">
+
                         <h3>Rayos X</h3>
                         <p>
                             Producen ozono en la parte alta de la atmósfera, lo que permite que éste se distribuya donde es más útil en su protección contra la radiación.
@@ -90,9 +84,8 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="single-services-two bg-009af0">
-                        <div class="icon">
-                            <i class="flaticon-optimize"></i>
-                        </div>
+                        <img src="https://laboratorios-chontalpa-file.s3.amazonaws.com/assets/medicina_laboral/bender_icon.png" width="100" height="99" alt="analisis clinicos icon" title="Laboratorios Chontalpa 3">
+
                         <h3>Test de Bender</h3>
                         <p>
                             El test de Bender es un instrumento de evaluación psicológica.
@@ -102,9 +95,8 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="single-services-two bg-009af0">
-                        <div class="icon">
-                            <i class="flaticon-optimize"></i>
-                        </div>
+                        <img src="https://laboratorios-chontalpa-file.s3.amazonaws.com/assets/medicina_laboral/pruebas_icon.png" width="100" height="99" alt="analisis clinicos icon" title="Laboratorios Chontalpa 3">
+
                         <h3> Pruebas Toxicológicas</h3>
                         <p>
                             Un examen toxicológico se refiere a diversas pruebas que determinan el tipo y la cantidad aproximada de 
@@ -114,9 +106,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="single-services-two bg-009af0">
-                        <div class="icon">
-                            <i class="flaticon-optimize"></i>
-                        </div>
+                        <img src="https://laboratorios-chontalpa-file.s3.amazonaws.com/assets/medicina_laboral/electrocardiograma_icon.png" width="100" height="99" alt="analisis clinicos icon" title="Laboratorios Chontalpa 3">
                         <h3> Electrocardiograma</h3>
                         <p>
                             Un electrocardiograma (ECG) es un procedimiento simple e indoloro que mide la actividad eléctrica del corazón.
@@ -125,9 +115,8 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="single-services-two bg-009af0">
-                        <div class="icon">
-                            <i class="flaticon-optimize"></i>
-                        </div>
+                        <img src="https://laboratorios-chontalpa-file.s3.amazonaws.com/assets/medicina_laboral/indice_icon.png" width="100" height="99" alt="analisis clinicos icon" title="Laboratorios Chontalpa 3">
+
                         <h3> Índice Framingham</h3>
                         <p>
                             Framingham es tu medida actual de presión arterial, junto con el colesterol total y de la lectura de colesterol HDL.
@@ -136,9 +125,8 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="single-services-two bg-009af0">
-                        <div class="icon">
-                            <i class="flaticon-optimize"></i>
-                        </div>
+                        <img src="https://laboratorios-chontalpa-file.s3.amazonaws.com/assets/medicina_laboral/factor_icon.png" width="100" height="99" alt="analisis clinicos icon" title="Laboratorios Chontalpa 3">
+
                         <h3> Factores de riesgo psicosocial</h3>
                         <p>
                             La NOM-035-STPS su objetivo establecer los elementos para identificar, analizar y prevenir los factores de riesgo psicosocial.

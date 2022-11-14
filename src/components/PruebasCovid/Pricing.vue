@@ -21,6 +21,57 @@
                         <ul class="pricing-list">
                             <li>
                                 <i class="flaticon-checked"></i> 
+                                Detecta proteinas del virus
+                            </li>
+
+                            <li>
+                                <i class="flaticon-checked"></i> 
+                                Se recomienda dentro de los primeros 7 dias de iniciar la sintomatologia 
+                            </li>
+
+                            <li>
+                                <i class="flaticon-checked"></i> 
+                                Especialidad del 93%
+                            </li>
+
+                            <li>
+                                <i class="flaticon-checked"></i> 
+                                Sensibilidad del 99%
+                            </li>
+
+                            <li>
+                                <i class="flaticon-checked"></i> 
+                                Resultados en 1 hora
+                            </li>
+
+                            <li>
+                                <i class="flaticon-checked"></i> 
+                                Validada por <span>InDRE</span>
+                            </li>
+                        </ul>
+
+                        <div class="price-covid-btn">
+                            <!-- <button to="#" class="default-btn"> -->
+                                $470.00
+                            <!-- </button> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-pricing">
+                        <div class="pricing-header">
+                            <h3>Pruebas de <span style="color: #009115; ">anticuerpos</span></h3>
+                        </div>
+
+                        <div class="price">
+                            <img style="border-radius: 10px;" src="https://www.laboratorioschontalpa.com.mx/wp-content/uploads/2022/02/sld-2.png" alt="">
+                            <!-- <sup>$</sup>29<sub>/mo</sub> -->
+                        </div>
+                
+                        <ul class="pricing-list">
+                            <li>
+                                <i class="flaticon-checked"></i> 
                                 Detecta anticuerpos presentes después del contagio
                             </li>
 
@@ -44,6 +95,7 @@
                                 Resultados el mismo dia
                             </li>
 
+
                             <li>
                                 <i class="flaticon-checked"></i> 
                                 Validada por la <span>Cofepris</span>
@@ -58,104 +110,56 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-pricing">
-                        <div class="pricing-header">
-                            <h3>Standard</h3>
-                            <p>Business Up</p>
-                        </div>
-
-                        <div class="price">
-                            <sup>$</sup>79<sub>/mo</sub>
-                        </div>
-                
-                        <ul class="pricing-list">
-                            <li>
-                                <i class="flaticon-checked"></i> 
-                                Visitor Info
-                            </li>
-
-                            <li>
-                                <i class="flaticon-checked"></i> 
-                                Quick Responses
-                            </li>
-
-                            <li>
-                                <i class="flaticon-checked"></i> 
-                                12 GB Capacity
-                            </li>
-
-                            <li>
-                                <i class="flaticon-checked"></i> 
-                                Any Where Access
-                            </li>
-
-                            <li>
-                                <i class="flaticon-cancel"></i> 
-                                Weekly Backup
-                            </li>
-
-                            <li>
-                                <i class="flaticon-cancel"></i> 
-                                Support 24/Hour
-                            </li>
-                        </ul>
-
-                        <div class="price-btn">
-                            <router-link to="/pricing" class="default-btn">
-                                Buy Now
-                            </router-link>
-                        </div>
-                    </div>
-                </div>
-
                 <div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
                     <div class="single-pricing">
                         <div class="pricing-header">
-                            <h3>Premium</h3>
-                            <p>Business Up</p>
+                            <h3>Prueba por <span style="color: #009115; ">PCR</span></h3>
                         </div>
 
                         <div class="price">
-                            <sup>$</sup>99<sub>/mo</sub>
+                            <img style="border-radius: 10px;" src="https://www.laboratorioschontalpa.com.mx/wp-content/uploads/2022/02/sld-2.png" alt="">
+                            <!-- <sup>$</sup>29<sub>/mo</sub> -->
                         </div>
                 
                         <ul class="pricing-list">
                             <li>
                                 <i class="flaticon-checked"></i> 
-                                10 GB Hosting 
+                                Detecta el material genetico del virus
                             </li>
 
                             <li>
                                 <i class="flaticon-checked"></i> 
-                                2 Unique Users 
+                                Prueba confirmatoria aprobada para todas las aerolineas e interveciones medicas
                             </li>
 
                             <li>
                                 <i class="flaticon-checked"></i> 
-                                12 GB Capacity
+                                Especialidad del 99.9%
                             </li>
 
                             <li>
                                 <i class="flaticon-checked"></i> 
-                                Any Where Access
+                                Sensibilidad del 99%
                             </li>
 
                             <li>
                                 <i class="flaticon-checked"></i> 
-                                Weekly Backup
+                                Resultados el mismo dia
                             </li>
 
                             <li>
-                                <i class="flaticon-cancel"></i> 
-                                Support 24/Hour
+                                <i class="flaticon-checked"></i> 
+                                Detecta variantes Delta y omicron 
+                            </li>
+
+                            <li>
+                                <i class="flaticon-checked"></i> 
+                                Validada por <span>InDRE</span>
                             </li>
                         </ul>
 
-                        <div class="price-btn">
-                            <router-link to="/pricing" class="default-btn">
-                                Buy Now
-                            </router-link>
+                        <div class="price-covid-btn">
+                            $1,950.00
                         </div>
                     </div>
                 </div>

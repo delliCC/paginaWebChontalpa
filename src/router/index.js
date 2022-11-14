@@ -19,9 +19,9 @@ import Covid from '../components/pages/CovidPage'
 import MicrobiologiaPage from '../components/pages/MicrobiologiaPage'
 import UltrasonidoPage from '../components/pages/UltrasonidoPage'
 import RayosXPage from '../components/pages/RayosXPage'
+import AnalisisClinicosPage from '../components/pages/AnalisisClinicosPage' 
 import PromocionesPage from '../components/pages/PromocionesPage'
 import ProjectsPageOne from '../components/pages/ProjectsPageOne'
-import AnalisisClinicoPage from '../components/pages/AnalisisClinicoPage'
 // import SingleProjectsPage from '../components/pages/SingleProjectsPage'
 import BlogOnePage from '../components/pages/BlogOnePage'
 import BlogPage from '../components/pages/BlogPage'
@@ -54,10 +54,10 @@ const routes = [
     {path: '/pruebas-de-covid', component: Covid},
     {path: '/microbiologia', component: MicrobiologiaPage},
     {path: '/ultrasonido', component: UltrasonidoPage},
+    {path: '/analisis-clinicos', component: AnalisisClinicosPage},
     {path: '/rayos-x', component: RayosXPage},
     {path: '/promociones', component: PromocionesPage},
     {path: '/projects-one', component: ProjectsPageOne},
-    {path: '/analisis-clinicos', component: AnalisisClinicoPage},
     // {path: '/estudios-detalle/:id', component: SingleProjectsPage},
     {path: '/blog-one', component: BlogOnePage},
     {path: '/blog', component: BlogPage},

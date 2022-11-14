@@ -40,8 +40,8 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <router-link  to="/services-two" class="nav-link">
-                                                Services Two
+                                            <router-link  to="/analisis-clinicos" class="nav-link">
+                                                Análisis Clínicos
                                             </router-link>
                                         </li>
                                         <li class="nav-item">

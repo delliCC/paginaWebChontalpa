@@ -1836,8 +1836,12 @@ Services Area CSS
 }
 
 .services-section.bg-color {
-  background-color: #f0f4f8;
+  /* background-color: #f0f4f8; */
+  background-image: url(https://laboratorios-chontalpa-file.s3.amazonaws.com/assets/fondo_gris.jpg);
   border-bottom: 1px solid #f3f3f3;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
 }
 
 .services-section.bg-background {
@@ -2514,6 +2518,7 @@ Development Area CSS
   font-size: 35px;
 }
 /********************************** Delli ***************************/
+
 .iconTomaMuestra {
   position: absolute;
   left: 0;
@@ -2524,7 +2529,7 @@ Development Area CSS
   background-color: #0071b6;
   color: #ffffff;
   text-align: center;
-  border-radius: 50px;
+  /* border-radius: 50px; */
   font-size: 35px;
 }
 
@@ -2762,11 +2767,64 @@ Choose Area CSS
   background-color: #ffffff;
   color: #086AD8;
 }
+/************************ Delli  ***************************/
+/* .overview-content {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.overview-content .icon {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  background-color: #ffffff;
+  line-height: 108px;
+  border-radius: 50px;
+  border: 1px dashed #086AD8;
+}
+
+.overview-content .icon i {
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+  background: -webkit-gradient(linear, left top, right top, from(#85edfe), color-stop(#6ee0ff), color-stop(#60d2ff), color-stop(#5fc2ff), to(#6bb1ff));
+  background: linear-gradient(to right, #85edfe, #6ee0ff, #60d2ff, #5fc2ff, #6bb1ff);
+  line-height: 80px;
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: 30px;
+} */
+
+.iconAnalisisClinicos {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  background-color: #ffffff;
+  /* line-height: 108px; */
+  border-radius: 50px;
+  border: 1px dashed #0071B6;
+  margin-bottom: 10px;
+}
+
+.iconAnalisisClinicos img {
+  width: 100%;
+  display: inline-block;
+  height: 100%;
+  /* width: 80px; */
+  background: -webkit-gradient(linear, left top, right top, from(#85edfe), color-stop(#6ee0ff), color-stop(#60d2ff), color-stop(#5fc2ff), to(#6bb1ff));
+  background: linear-gradient(to right, #85edfe, #6ee0ff, #60d2ff, #5fc2ff, #6bb1ff);
+  line-height: 80px;
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: 30px;
+}
 
 .choose-text {
   position: relative;
-  padding-left: 88px;
+  padding-left: 118px;
   margin-bottom: 30px;
+  width: 90%;
+  text-align: justify;
 }
 
 .choose-text .icon {
@@ -3845,10 +3903,14 @@ Support Area CSS
 Overview Area CSS
 =================================================*/
 .overview-section {
-  background-color: #f0f1fe;
+  /* background-color: #f0f1fe; */
   position: relative;
   z-index: 1;
   overflow: hidden;
+  background-image: url(https://laboratorios-chontalpa-file.s3.amazonaws.com/assets/fondo_gris.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .overview-content {
@@ -4625,7 +4687,7 @@ Pricing Area CSS
 }
 
 .single-pricing {
-  /* background-color: #f8f2f2; */
+  background-color: #fff;
   box-shadow: 2px 2px 5px 2px #aaaaaa;
   padding: 50px 40px;
   text-align: center;
@@ -7038,18 +7100,18 @@ Contact Section CSS
   line-height: 50px;
   width: 50px;
   height: 50px;
-  border: 1px dashed #086AD8;
+  border: 1px dashed #0071B6;
   border-radius: 50%;
   font-size: 20px;
   display: inline-block;
-  color: #086AD8;
+  color: #0071B6;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   margin-bottom: 20px;
 }
 
 .single-contact-box:hover i {
-  background-color: #086AD8;
+  background-color: #0071B6;
   color: #ffffff;
 }
 
@@ -8528,7 +8590,9 @@ Fooetr Area CSS
 }
 
 .cintillo-area .cintillo-area-content ul li a:hover {
-  color: #086AD8;
+  color: #FF6600;
+  -webkit-text-fill-color: #ffffff;
+  -webkit-text-stroke: 1px #FF6600;
 }
 
 .cintillo-area .cintillo-area-content ul li::before {
@@ -8665,7 +8729,9 @@ Copy Right Area CSS
 }
 
 .copyright-area .copyright-area-content p a:hover {
-  color: #086AD8;
+  color: #FF6600;
+  -webkit-text-fill-color: #FF6600;
+  -webkit-text-stroke: 1px #FF6600;
 }
 
 .copyright-area .copyright-area-content ul {
@@ -8689,7 +8755,10 @@ Copy Right Area CSS
 }
 
 .copyright-area .copyright-area-content ul li a:hover {
-  color: #086AD8;
+  color: #FF6600;
+  -webkit-text-fill-color: #ffffff;
+  -webkit-text-stroke: 1px #FF6600;
+
 }
 
 .copyright-area .copyright-area-content ul li::before {
@@ -8699,7 +8768,7 @@ Copy Right Area CSS
   right: -10px;
   width: 1px;
   height: 14px;
-  background-color: #086AD8;
+  background-color: #0071B6;
 }
 
 .copyright-area .copyright-area-content ul li:last-child {

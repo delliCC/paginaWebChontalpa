@@ -1,5 +1,6 @@
 <template>
     <div>
+        <Cintillo />
         <Navbar />
         <PageTitle />
         <Pricing />
@@ -10,6 +11,7 @@
 </template>
 
 <script>
+    import Cintillo from '../Inicio/Cintillo'
     import Navbar from '../Layout/Navbar'
     import PageTitle from '../PreguntasF/PageTitle'
     import Pricing from '../PreguntasF/Faq'
@@ -20,6 +22,7 @@
     export default {
         name: 'FaqPage',
         components: {
+            Cintillo,
             Navbar,
             PageTitle,
             Pricing,

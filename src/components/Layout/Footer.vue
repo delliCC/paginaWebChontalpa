@@ -25,7 +25,7 @@ en cada paciente de acuerdo a su historia clínica e interpretar los resultados.
 
                         <div class="footer-info-contact">
                             <i class="flaticon-phone-call"></i>
-                            <h3>Phone</h3>
+                            <h3>telefóno</h3>
                             <span><a href="tel:+800 501 55 55">800 501 55 55</a></span>
                         </div>
 
