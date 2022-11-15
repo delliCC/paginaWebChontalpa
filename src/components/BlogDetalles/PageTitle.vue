@@ -4,10 +4,10 @@
             <div class="d-table-cell">
                 <div class="container">
                     <div class="page-title-content">
-                        <h2>Single Blog</h2>
+                        <h2>Blog</h2>
                         <ul>
-                            <li><router-link to="/">Home</router-link></li>
-                            <li>Single Blog</li>
+                            <li><router-link to="/">Inicio</router-link></li>
+                            <li>Blog</li>
                         </ul>
                     </div>
                 </div>

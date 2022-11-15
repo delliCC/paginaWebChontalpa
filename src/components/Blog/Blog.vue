@@ -4,89 +4,27 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="row">
-                        <div class="col-lg-6 col-md-6">
+                        <div class="col-lg-4 col-md-6" v-for="blog in array_blog" :key="blog.id">
                             <div class="single-blog">
                                 <div class="image">
-                                    <router-link to="/single-blog">
-                                        <img src="../../assets/images/blog/blog-1.jpg" alt="image">
+                                    <router-link :to="`/blog-detalle/${blog.id}`">
+                                        <img :src="`${blog.imagen_portada}`"  alt="image">
                                     </router-link>
                                 </div>
-    
+
                                 <div class="content">
-                                    <span>20 March 2022</span>
+                                    <span>{{blog.fecha}}</span>
                                     <h3>
-                                        <router-link to="/single-blog">
-                                            Great Tips To Earn More Money From Digital Industry
+                                        <router-link :to="`/blog-detalle/${blog.id}`">
+                                            {{blog.titulo}}
                                         </router-link>
                                     </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor</p>
-                                    <router-link to="/single-blog" class="read-more">Read More</router-link>
+                                    <p>{{blog.descripcion_portada}}</p>
+                                    <router-link class="read-more" :to="`/blog-detalle/${blog.id}`">Leer más...</router-link>
                                 </div>
                             </div>
                         </div>
-    
-                        <div class="col-lg-6 col-md-6">
-                            <div class="single-blog">
-                                <div class="image">
-                                    <router-link to="/single-blog">
-                                        <img src="../../assets/images/blog/blog-2.jpg" alt="image">
-                                    </router-link>
-                                </div>
-    
-                                <div class="content">
-                                    <span>25 March 2022</span>
-                                    <h3>
-                                        <router-link to="/single-blog">
-                                            The Billionaire Guide On Design That will Get You Rich
-                                        </router-link>
-                                    </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor</p>
-                                    <router-link to="/single-blog" class="read-more">Read More</router-link>
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div class="col-lg-6 col-md-6">
-                            <div class="single-blog">
-                                <div class="image">
-                                    <router-link to="/single-blog">
-                                        <img src="../../assets/images/blog/blog-3.jpg" alt="image">
-                                    </router-link>
-                                </div>
-    
-                                <div class="content">
-                                    <span>17 March 2022</span>
-                                    <h3>
-                                        <router-link to="/single-blog">
-                                            Making Peace With The Feast Or Famine Of Freelancing
-                                        </router-link>
-                                    </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor</p>
-                                    <router-link to="/single-blog" class="read-more">Read More</router-link>
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div class="col-lg-6 col-md-6">
-                            <div class="single-blog">
-                                <div class="image">
-                                    <router-link to="/single-blog">
-                                        <img src="../../assets/images/blog/blog-4.jpg" alt="image">
-                                    </router-link>
-                                </div>
-    
-                                <div class="content">
-                                    <span>20 March 2022</span>
-                                    <h3>
-                                        <router-link to="/single-blog">
-                                            Startup Marketing Solution for Business Owner
-                                        </router-link>
-                                    </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor</p>
-                                    <router-link to="/single-blog" class="read-more">Read More</router-link>
-                                </div>
-                            </div>
-                        </div>
+            
 
                         <div class="col-lg-12 col-md-12">
                             <div class="pagination-area">
@@ -116,10 +54,43 @@
 <script>
 import Sidebar from '../Common/Sidebar'
 
+    // export default {
+    //     name: 'Blog',
+    //     components: { 
+    //         Sidebar
+    //     }
+    // }
     export default {
-        name: 'Blog',
+        // name: 'Blog',
         components: { 
             Sidebar
+        },
+        data() {
+            return {
+                name: 'Blog',
+                array_blog:[]
+            }
+        },
+        mounted() {
+            this.blog()
+        },
+        methods:{
+            blog() {
+                this.$axios.post(`http://localhost/api/blog`).then(response => {
+                    this.array_blog = response.data.data
+                    console.log(this.array_blog)
+                    
+                }).catch(() => {
+                // this.$toast({
+                // component: ToastificationContent,
+                // props: {
+                //     title: 'Error al cargar datos',
+                //     icon: 'ThumbsDownIcon',
+                //     variant: 'danger',
+                // },
+                // })
+                })
+            },
         }
     }
 </script>

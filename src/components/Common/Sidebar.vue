@@ -50,7 +50,7 @@
             </article>
         </div>
 
-        <div class="widget widget_categories">
+        <!-- <div class="widget widget_categories">
             <h3 class="widget-title">Categorias</h3>
             <ul>
                 <li>
@@ -69,7 +69,7 @@
                     <router-link to="/">Uncategorized</router-link>
                 </li>
             </ul>
-        </div>
+        </div> -->
 
         <!-- <div class="widget widget_recent_comments">
             <h3 class="widget-title">Recent Comments</h3>

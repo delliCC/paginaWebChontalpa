@@ -25,7 +25,7 @@ import ProjectsPageOne from '../components/pages/ProjectsPageOne'
 // import SingleProjectsPage from '../components/pages/SingleProjectsPage'
 import BlogOnePage from '../components/pages/BlogOnePage'
 import BlogPage from '../components/pages/BlogPage'
-import SingleBlogPage from '../components/pages/SingleBlogPage'
+import BlogDetallePage from '../components/pages/BlogDetallePage'
 import ContactPage from '../components/pages/ContactPage'
 import TeamPage from '../components/pages/TeamPage'
 import PricingPage from '../components/pages/PricingPage'
@@ -61,7 +61,7 @@ const routes = [
     // {path: '/estudios-detalle/:id', component: SingleProjectsPage},
     {path: '/blog-one', component: BlogOnePage},
     {path: '/blog', component: BlogPage},
-    {path: '/single-blog', component: SingleBlogPage},
+    {path: '/blog-detalle/:id', component: BlogDetallePage},
     {path: '/contact', component: ContactPage},
     {path: '/team', component: TeamPage},
     {path: '/pricing', component: PricingPage},

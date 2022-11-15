@@ -1159,7 +1159,7 @@ Navbar Area CSS
 .sidebar-modal-inner .contact-form .send-btn .send-btn-one {
   display: inline-block;
   padding: 14px 35px;
-  background-color: #086AD8;
+  background-color: #009115;
   color: #ffffff;
   font-size: 15px;
   font-weight: 500;
@@ -1170,7 +1170,7 @@ Navbar Area CSS
 }
 
 .sidebar-modal-inner .contact-form .send-btn .send-btn-one:hover {
-  background-color: #10dce8;
+  background-color: #FF6600;
   color: #ffffff;
 }
 
@@ -1187,19 +1187,19 @@ Navbar Area CSS
 
 .sidebar-modal-inner .sidebar-contact-area .contact-info .contact-info-content h2 a {
   display: inline-block;
-  color: #086AD8;
+  color: #0071B6;
 }
 
 .sidebar-modal-inner .sidebar-contact-area .contact-info .contact-info-content h2 a:hover {
-  color: #212121;
+  color: #FF6600;
 }
 
 .sidebar-modal-inner .sidebar-contact-area .contact-info .contact-info-content h2 a:not(:first-child) {
-  color: #212121;
+  color: #0071B6;
 }
 
 .sidebar-modal-inner .sidebar-contact-area .contact-info .contact-info-content h2 a:not(:first-child):hover {
-  color: #086AD8;
+  color: #FF6600;
 }
 
 .sidebar-modal-inner .sidebar-contact-area .contact-info .contact-info-content h2 span {
@@ -1836,8 +1836,8 @@ Services Area CSS
 }
 
 .services-section.bg-color {
-  /* background-color: #f0f4f8; */
-  background-image: url(https://laboratorios-chontalpa-file.s3.amazonaws.com/assets/fondo_gris.jpg);
+  background-color: #f0f4f8;
+  /* background-image: url(https://laboratorios-chontalpa-file.s3.amazonaws.com/assets/fondo_gris.jpg); */
   border-bottom: 1px solid #f3f3f3;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -5989,6 +5989,7 @@ Contact Area CSS
   margin-top: 10px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  text-align: center;
 }
 
 .contact-form .send-btn .default-btn {

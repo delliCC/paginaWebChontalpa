@@ -10,13 +10,13 @@
 
 <script>
     import Navbar from '../Layout/Navbar'
-    import PageTitle from '../SingleBlog/PageTitle'
-    import Blog from '../SingleBlog/Blog'
+    import PageTitle from '../BlogDetalles/PageTitle'
+    import Blog from '../BlogDetalles/Blog'
     import Footer from '../Layout/Footer'
     import CopyRight from '../Layout/CopyRight'
 
     export default {
-        name: 'SingleBlogPage',
+        name: 'BlogDetallePage',
         components: {
             Navbar,
             PageTitle,
