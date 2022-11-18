@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const baseURL = 'http://localhost/api' // Local
-// const baseURL = 'http://back-cobranza.cv.mx/api' // production
+// const baseURL = 'https://www.laboratorioschontalpa.com.mx/api' // production
 
 // configuracion axios
 axios.defaults.baseURL = baseURL

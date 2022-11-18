@@ -37,7 +37,7 @@ import PrivacyPolicyPage from '../components/pages/PrivacyPolicyPage'
 import ErrorPage from '../components/pages/ErrorPage'
 
 const routes = [
-    {path: '/', component: InicioPageOne},
+    {path: 'https://laboratorioschontalpa.com.mx/web/', component: InicioPageOne},
     {path: '/home-two', component: HomePageTwo},
     {path: '/home-three', component: HomePageThree},
     {path: '/home-four', component: HomePageFour},
