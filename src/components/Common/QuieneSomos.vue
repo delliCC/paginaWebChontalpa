@@ -7,10 +7,10 @@
                         <div class="creative-content">
                             <h3>¿Quiénes <span>somos</span>?</h3>
                             <div class="bar"></div>
-                            <p>
+                            <p style="text-align: justify;">
                                 En Laboratorios Chontalpa proporcionamos servicios auxiliares del diagnóstico médico que garantiza los más altos estándares de calidad para contribuir al cuidado y mejor la salud en la sociedad. Más de 40 años de experiencia respaldan nuestro trabajo.
                             </p>
-                            <p>
+                            <p style="text-align: justify;">
                                 Contamos con 4 laboratorios equipados con la más alta tecnología a nivel mundial y más de 90 sucursales se encuentran distribuidas en las principales ciudades y municipios de los estados de Yucatán, Quintana Roo, Veracruz, Tabasco, Campeche y Chiapas.
                             </p>
                         </div>

@@ -21,8 +21,8 @@
                             </div>
                             
                             <div class="form-group">
-                                <label>Subject</label>
-                                <input type="text" name="msg_subject" id="msg_subject" class="form-control" required placeholder="Your Subject">
+                                <label>Archivo</label>
+                                <input type="file" class="form-control" name="msg_subject" id="msg_subject" required>
                             </div>
                             
                             <div class="form-group">

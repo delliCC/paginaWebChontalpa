@@ -11,31 +11,19 @@
                     v-for="slide in carouselItems" 
                     :key="slide.id"
                 >
-                    <div :class="slide.class">
-                        <!-- <div class="d-table">
-                            <div class="d-table-cell">
-                                <div class="container">
-                                    <div class="main-banner-content">
-                                        <h1>{{slide.heading}}</h1>
-                                        <p>{{slide.description}}</p>
-                                        <div class="banner-btn">
-                                            <router-link :to="slide.btnLink" class="default-btn">
-                                                {{slide.btnText}}
-                                            </router-link>
-                                        </div>
-                                    </div>
-
-                                    <div class="banner-image">
-                                        <img src="../../assets/images/shapes/shape-11.png" alt="image">
-
-                                        <img :src="slide.image" class="banner-img" alt="image">
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
+                    <div>
+                        <router-link :to="slide.btnLink" class="default-btn">
+                            <!-- :style="{ 'background': 'url(' + slide.image + ')' }" -->
+                            <img :src="slide.image" class="banner-img" alt="image">
+                            <!-- <div class="main-banner-content">
+                                <h1>{{slide.heading}}</h1>
+                                <p>{{slide.description}}</p>
+                                <div class="banner-btn"></div>
+                            </div> -->
+                        </router-link>
                     </div>
                 </slide>
-
+            
                 <template #addons>
                     <Pagination />
                 </template>
@@ -62,20 +50,20 @@ export default defineComponent ({
             {
                 id: 1,
                 class: 'home-item item-bg1',
-                heading: 'Make Real-Life Connections With IT',
+                heading: 'aaaa',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing incididunt ut laboredolore magna aliqua elsed  tempomet, consectetur adipiscing.',
-                btnLink: '/contact',
+                btnLink: '/promociones',
                 btnText: 'Get Started',
-                image: require('../../assets/images/image-1.png')
+                image: 'https://laboratorios-chontalpa-file.s3.amazonaws.com/slider/chontalpa_social.png'
             },
             {
                 id: 2,
                 class: 'home-item item-bg2',
-                heading: 'Make Real-Life Connections With IT',
+                heading: 'eee',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing incididunt ut laboredolore magna aliqua elsed  tempomet, consectetur adipiscing.',
                 btnLink: '/contact',
                 btnText: 'Get Started',
-                image: require('../../assets/images/image-2.png')
+                image: 'https://www.laboratorioschontalpa.com.mx/wp-content/uploads/2022/10/1280-delli-1.png'
             },
             {
                 id: 3,
@@ -84,7 +72,7 @@ export default defineComponent ({
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing incididunt ut laboredolore magna aliqua elsed  tempomet, consectetur adipiscing.',
                 btnLink: '/contact',
                 btnText: 'Get Started',
-                image: require('../../assets/images/image-3.png')
+                image: 'https://www.laboratorioschontalpa.com.mx/wp-content/uploads/2022/07/resultado_linea.png'
             },
         ],
         settings: {
