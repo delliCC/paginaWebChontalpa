@@ -29,7 +29,7 @@
 
                     <div class="col-lg-6">
                         <div class="creative-image">
-                            <img src="https://youtu.be/aAE1SPCZNw0" alt="image">
+                            <img src="https://www.youtube.com/watch?v=aAE1SPCZNw0" alt="image">
 
                             <div class="creative-video">
                                 <div
@@ -59,7 +59,7 @@
                         <div class="popup-overlay-close-line"></div>
                     </div>
                     <div class="play-video">
-                        <iframe src="https://youtu.be/aAE1SPCZNw0"></iframe>
+                        <iframe src="https://www.youtube.com/embed/aAE1SPCZNw0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
